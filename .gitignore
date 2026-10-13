@@ -1,0 +1,37 @@
+# ── Personal data: NEVER upload ─────────────────────────────────────────────
+# state/ holds Friday's memories of your conversations, chat logs, prompt dumps
+# and review logs. A fresh copy starts from release/friday-base.pth instead.
+state/
+*.pth
+!release/friday-base.pth
+
+# ── Large third-party files: fetched by scripts/download_models.py ──────────
+data/models/
+data/embeddings/
+runtime/
+
+# ── Local environment ───────────────────────────────────────────────────────
+venv/
+.venv/
+__pycache__/
+*.pyc
+
+# ── Project history and scratch work (kept locally) ─────────────────────────
+archive/
+work/
+
+# ── Red-team raw logs (server logs contain local file paths) ────────────────
+tools/redteam/results/**/native-server.log
+tools/redteam/results-*.log
+tools/redteam/results/**/*.pth
+
+# ── Your private design documents: remove these lines to publish them ───────
+docs/*.docx
+docs/reference/
+
+# ── OS / editor ─────────────────────────────────────────────────────────────
+Thumbs.db
+desktop.ini
+.DS_Store
+.vscode/
+.idea/

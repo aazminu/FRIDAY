@@ -1,0 +1,14 @@
+{
+  "training_examples": 229,
+  "held_out_examples": 33,
+  "held_out_accuracy": 0.9696969985961914,
+  "seconds": 34.44875859993044,
+  "neural_parameters": 56459,
+  "failures": [
+    {
+      "text": "How would you describe our relationship?",
+      "expected": 10,
+      "predicted": 0
+    }
+  ]
+}

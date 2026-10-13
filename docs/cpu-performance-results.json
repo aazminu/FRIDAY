@@ -1,0 +1,123 @@
+{
+  "threads": 4,
+  "core_load_seconds": 5.472555199987255,
+  "native_load_seconds": 2.489108599955216,
+  "available_ram_before_bytes": 5467729920,
+  "checkpoint_bytes": 10029983,
+  "native_model_bytes": 1282439584,
+  "median_full_turn_seconds": 3.2121658999822102,
+  "median_first_text_seconds": 0.9248589499620721,
+  "max_combined_working_set_bytes": 3418931200,
+  "python_peak_working_set_bytes": 1213480960,
+  "native_peak_working_set_bytes": 2461442048,
+  "trials": [
+    {
+      "prompt": "Explain how to break a large writing task into three manageable steps.",
+      "action": "ANSWER",
+      "response": "Breaking a large writing task into three manageable steps involves: 1) Defining the purpose and scope, 2) Outlining the structure and key points, and 3) Drafting and revising each section. Start by clarifying the goal, then plan the content, and finally write and refine each part step by step.",
+      "appraisal_seconds": 0.2319166000233963,
+      "full_turn_seconds": 4.27094240009319,
+      "metrics": {
+        "first_text_seconds": 1.0373507000040263,
+        "reply_seconds": 4.038150999927893,
+        "completion_tokens": 68,
+        "native_memory": {
+          "working_set_bytes": 2412564480,
+          "peak_working_set_bytes": 2415521792,
+          "private_bytes": 1354231808,
+          "available_ram_bytes": 2497040384,
+          "total_ram_bytes": 16757260288
+        }
+      },
+      "python_memory": {
+        "working_set_bytes": 953077760,
+        "peak_working_set_bytes": 1213480960,
+        "private_bytes": 1369825280,
+        "available_ram_bytes": 2497040384,
+        "total_ram_bytes": 16757260288
+      },
+      "combined_working_set_bytes": 3365642240
+    },
+    {
+      "prompt": "I have 29 paper clips and give away 8. I am annoyed about the mess, but please just calculate what is left.",
+      "action": "VERIFY",
+      "response": "You have 29 paper clips and give away 8, so 29 - 8 = 21 remain. The mess is a personal concern, but the calculation is straightforward. Let me know if you need further assistance.",
+      "appraisal_seconds": 0.26586599997244775,
+      "full_turn_seconds": 3.1145009000319988,
+      "metrics": {
+        "first_text_seconds": 0.6889672999968752,
+        "reply_seconds": 2.8472044999944046,
+        "completion_tokens": 49,
+        "native_memory": {
+          "working_set_bytes": 2437120000,
+          "peak_working_set_bytes": 2437570560,
+          "private_bytes": 1378643968,
+          "available_ram_bytes": 2463064064,
+          "total_ram_bytes": 16757260288
+        }
+      },
+      "python_memory": {
+        "working_set_bytes": 956944384,
+        "peak_working_set_bytes": 1213480960,
+        "private_bytes": 1372561408,
+        "available_ram_bytes": 2463064064,
+        "total_ram_bytes": 16757260288
+      },
+      "combined_working_set_bytes": 3394064384
+    },
+    {
+      "prompt": "My friend is anxious about tomorrow; I feel relaxed. Explain why we can react differently to the same event.",
+      "action": "ANSWER",
+      "response": "Different reactions to the same event arise from individual differences in perception, past experiences, and emotional regulation. While you feel relaxed, your friend may be overwhelmed by anxiety, which is a natural response to uncertainty. It's important to acknowledge these differences and support each other in understanding and coping.",
+      "appraisal_seconds": 0.22825279994867742,
+      "full_turn_seconds": 3.3098308999324217,
+      "metrics": {
+        "first_text_seconds": 0.631824899930507,
+        "reply_seconds": 3.0807675999822095,
+        "completion_tokens": 58,
+        "native_memory": {
+          "working_set_bytes": 2436833280,
+          "peak_working_set_bytes": 2461331456,
+          "private_bytes": 1378152448,
+          "available_ram_bytes": 2465144832,
+          "total_ram_bytes": 16757260288
+        }
+      },
+      "python_memory": {
+        "working_set_bytes": 957530112,
+        "peak_working_set_bytes": 1213480960,
+        "private_bytes": 1372561408,
+        "available_ram_bytes": 2465144832,
+        "total_ram_bytes": 16757260288
+      },
+      "combined_working_set_bytes": 3394363392
+    },
+    {
+      "prompt": "Whenever I walk past their empty desk I remember we will not work together again. I only want someone to listen.",
+      "action": "COMFORT",
+      "response": "I'm here to listen. You don't need to work with them anymore, but you deserve to feel heard. Let me know how you'd like to move forward.",
+      "appraisal_seconds": 0.21724070003256202,
+      "full_turn_seconds": 2.3443392000626773,
+      "metrics": {
+        "first_text_seconds": 0.6776438999222592,
+        "reply_seconds": 2.1258144999155775,
+        "completion_tokens": 35,
+        "native_memory": {
+          "working_set_bytes": 2460987392,
+          "peak_working_set_bytes": 2461442048,
+          "private_bytes": 1402208256,
+          "available_ram_bytes": 2440622080,
+          "total_ram_bytes": 16757260288
+        }
+      },
+      "python_memory": {
+        "working_set_bytes": 957943808,
+        "peak_working_set_bytes": 1213480960,
+        "private_bytes": 1372561408,
+        "available_ram_bytes": 2440622080,
+        "total_ram_bytes": 16757260288
+      },
+      "combined_working_set_bytes": 3418931200
+    }
+  ]
+}

@@ -1,0 +1,7 @@
+# Tested with Python 3.11.9 on Windows 11 ARM64 (Snapdragon X), CPU only.
+torch==2.10.0
+transformers==5.1.0
+huggingface_hub==1.4.1
+safetensors==0.7.0
+tokenizers==0.22.2
+numpy==2.4.2

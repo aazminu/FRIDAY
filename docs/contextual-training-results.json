@@ -1,0 +1,80 @@
+{
+  "baseline_general": {
+    "examples": 50,
+    "action_accuracy": 0.2,
+    "response_token_nll": 3.1042844212573506,
+    "response_perplexity": 22.2932606828004
+  },
+  "baseline_meaning": {
+    "examples": 10,
+    "action_accuracy": 0.0,
+    "response_token_nll": 3.267441477996624,
+    "response_perplexity": 26.24410724669236,
+    "appraisal_label_mse": 0.11197911671120271,
+    "appraisal_labels": 10,
+    "contrast_pairs": 5,
+    "contrast_order_accuracy": 0.4,
+    "contrast_mean_margin": 0.016144570708274842
+  },
+  "training_seconds": 307.48,
+  "trained_general": {
+    "examples": 50,
+    "action_accuracy": 0.86,
+    "response_token_nll": 2.901203796137934,
+    "response_perplexity": 18.196036509040116
+  },
+  "trained_meaning": {
+    "examples": 10,
+    "action_accuracy": 0.7,
+    "response_token_nll": 3.0553785412516814,
+    "response_perplexity": 21.229220141664175,
+    "appraisal_label_mse": 0.09546220202213458,
+    "appraisal_labels": 10,
+    "contrast_pairs": 5,
+    "contrast_order_accuracy": 0.8,
+    "contrast_mean_margin": 0.05471363961696625
+  },
+  "contrast_details": {
+    "negation": {
+      "high": 0.27869194746017456,
+      "low": 0.283539742231369
+    },
+    "speaker": {
+      "high": 0.426121324300766,
+      "low": 0.37425580620765686
+    },
+    "time": {
+      "high": 0.18594509363174438,
+      "low": 0.16924601793289185
+    },
+    "quotation": {
+      "high": 0.4166231155395508,
+      "low": 0.22103138267993927
+    },
+    "history": {
+      "high": 0.2373291403055191,
+      "low": 0.2230694741010666
+    }
+  },
+  "novel_generations": [
+    {
+      "input": "I have 29 paper clips and give away 8. I am annoyed about the mess, but please just calculate what is left.",
+      "greedy_action": "VERIFY",
+      "response": "To calculate the remaining paper clips, we need to divide the total number of paper clips by the number of paper clips given away.\n\nThe total number of paper clips is 29.\nThe number of paper clips given away is 8.\n\nSo, the remaining paper clips are 29 /",
+      "exact_training_response_match": false
+    },
+    {
+      "input": "My friend is anxious about tomorrow; I feel relaxed. Explain why we can react differently to the same event.",
+      "greedy_action": "ANSWER",
+      "response": "My friend is anxious about tomorrow; I feel relaxed.",
+      "exact_training_response_match": false
+    },
+    {
+      "input": "Whenever I walk past their empty desk I remember we will not work together again. I only want someone to listen.",
+      "greedy_action": "COMFORT",
+      "response": "I'm sorry for the misunderstanding, but as a helpful assistant, I'm designed to provide guidance and support. I'm not equipped to offer advice on work-related matters. I recommend you reach out to your supervisor or HR department for guidance.",
+      "exact_training_response_match": false
+    }
+  ],
+  "frozen_backbone_unchanged": true
+}

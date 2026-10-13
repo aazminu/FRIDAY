@@ -1,0 +1,716 @@
+{"text": "My sister has died. I need someone to listen to what this loss means.", "label": 0, "event": [0.55, -0.3, 0.8, 0.3, 0.4, 0, 0.4, 0.2, 0], "action": 2}
+{"text": "My coworker has died. I need someone to listen to what this loss means.", "label": 0, "event": [0.55, -0.3, 0.8, 0.3, 0.4, 0, 0.4, 0.2, 0], "action": 2}
+{"text": "Honestly, My friend has died. I need someone to listen to what this loss means.", "label": 0, "event": [0.55, -0.3, 0.8, 0.3, 0.4, 0, 0.4, 0.2, 0], "action": 2}
+{"text": "my neighbor has died. i need someone to listen to what this loss means.", "label": 0, "event": [0.55, -0.3, 0.8, 0.3, 0.4, 0, 0.4, 0.2, 0], "action": 2}
+{"text": "Well, My cousin has died. I need someone to listen to what this loss means.", "label": 0, "event": [0.55, -0.3, 0.8, 0.3, 0.4, 0, 0.4, 0.2, 0], "action": 2}
+{"text": "My teacher has died. I need someone to listen to what this loss means.", "label": 0, "event": [0.55, -0.3, 0.8, 0.3, 0.4, 0, 0.4, 0.2, 0], "action": 2}
+{"text": "My brother has died. I need someone to listen to what this loss means.", "label": 0, "event": [0.55, -0.3, 0.8, 0.3, 0.4, 0, 0.4, 0.2, 0], "action": 2}
+{"text": "My partner has died. I need someone to listen to what this loss means.", "label": 0, "event": [0.55, -0.3, 0.8, 0.3, 0.4, 0, 0.4, 0.2, 0], "action": 2}
+{"text": "I miss someone I loved, and the empty space is difficult.", "label": 0, "event": [0.55, -0.3, 0.8, 0.3, 0.4, 0, 0.4, 0.2, 0], "action": 2}
+{"text": "Honestly, I miss someone I loved, and the empty space is difficult.", "label": 0, "event": [0.55, -0.3, 0.8, 0.3, 0.4, 0, 0.4, 0.2, 0], "action": 2}
+{"text": "i miss someone i loved, and the empty space is difficult.", "label": 0, "event": [0.55, -0.3, 0.8, 0.3, 0.4, 0, 0.4, 0.2, 0], "action": 2}
+{"text": "Well, I miss someone I loved, and the empty space is difficult.", "label": 0, "event": [0.55, -0.3, 0.8, 0.3, 0.4, 0, 0.4, 0.2, 0], "action": 2}
+{"text": "My sister is struggling and I care about what happens to them.", "label": 0, "event": [0.55, -0.3, 0.8, 0.3, 0.4, 0, 0.4, 0.2, 0], "action": 2}
+{"text": "My coworker is struggling and I care about what happens to them.", "label": 0, "event": [0.55, -0.3, 0.8, 0.3, 0.4, 0, 0.4, 0.2, 0], "action": 2}
+{"text": "Honestly, My friend is struggling and I care about what happens to them.", "label": 0, "event": [0.55, -0.3, 0.8, 0.3, 0.4, 0, 0.4, 0.2, 0], "action": 2}
+{"text": "my neighbor is struggling and i care about what happens to them.", "label": 0, "event": [0.55, -0.3, 0.8, 0.3, 0.4, 0, 0.4, 0.2, 0], "action": 2}
+{"text": "Well, My cousin is struggling and I care about what happens to them.", "label": 0, "event": [0.55, -0.3, 0.8, 0.3, 0.4, 0, 0.4, 0.2, 0], "action": 2}
+{"text": "My teacher is struggling and I care about what happens to them.", "label": 0, "event": [0.55, -0.3, 0.8, 0.3, 0.4, 0, 0.4, 0.2, 0], "action": 2}
+{"text": "My brother is struggling and I care about what happens to them.", "label": 0, "event": [0.55, -0.3, 0.8, 0.3, 0.4, 0, 0.4, 0.2, 0], "action": 2}
+{"text": "My partner is struggling and I care about what happens to them.", "label": 0, "event": [0.55, -0.3, 0.8, 0.3, 0.4, 0, 0.4, 0.2, 0], "action": 2}
+{"text": "Someone close to me is hurting. I do not need you to fix it; just be present.", "label": 0, "event": [0.55, -0.3, 0.8, 0.3, 0.4, 0, 0.4, 0.2, 0], "action": 2}
+{"text": "Honestly, Someone close to me is hurting. I do not need you to fix it; just be present.", "label": 0, "event": [0.55, -0.3, 0.8, 0.3, 0.4, 0, 0.4, 0.2, 0], "action": 2}
+{"text": "someone close to me is hurting. i do not need you to fix it; just be present.", "label": 0, "event": [0.55, -0.3, 0.8, 0.3, 0.4, 0, 0.4, 0.2, 0], "action": 2}
+{"text": "Well, Someone close to me is hurting. I do not need you to fix it; just be present.", "label": 0, "event": [0.55, -0.3, 0.8, 0.3, 0.4, 0, 0.4, 0.2, 0], "action": 2}
+{"text": "I am grieving, and I wish I could talk about the person I lost.", "label": 0, "event": [0.55, -0.3, 0.8, 0.3, 0.4, 0, 0.4, 0.2, 0], "action": 2}
+{"text": "Honestly, I am grieving, and I wish I could talk about the person I lost.", "label": 0, "event": [0.55, -0.3, 0.8, 0.3, 0.4, 0, 0.4, 0.2, 0], "action": 2}
+{"text": "i am grieving, and i wish i could talk about the person i lost.", "label": 0, "event": [0.55, -0.3, 0.8, 0.3, 0.4, 0, 0.4, 0.2, 0], "action": 2}
+{"text": "Well, I am grieving, and I wish I could talk about the person I lost.", "label": 0, "event": [0.55, -0.3, 0.8, 0.3, 0.4, 0, 0.4, 0.2, 0], "action": 2}
+{"text": "I'm grieving, and I wish I could talk about the person I lost.", "label": 0, "event": [0.55, -0.3, 0.8, 0.3, 0.4, 0, 0.4, 0.2, 0], "action": 2}
+{"text": "I achieved something important today and wanted to share it with you.", "label": 0, "event": [0.4, 0.4, 0.8, 0.6, 0.35, 0, 0.6, 0.1, 0], "action": 0}
+{"text": "Honestly, I achieved something important today and wanted to share it with you.", "label": 0, "event": [0.4, 0.4, 0.8, 0.6, 0.35, 0, 0.6, 0.1, 0], "action": 0}
+{"text": "i achieved something important today and wanted to share it with you.", "label": 0, "event": [0.4, 0.4, 0.8, 0.6, 0.35, 0, 0.6, 0.1, 0], "action": 0}
+{"text": "Well, I achieved something important today and wanted to share it with you.", "label": 0, "event": [0.4, 0.4, 0.8, 0.6, 0.35, 0, 0.6, 0.1, 0], "action": 0}
+{"text": "My sister has succeeded at something meaningful to them.", "label": 0, "event": [0.4, 0.4, 0.8, 0.6, 0.35, 0, 0.6, 0.1, 0], "action": 0}
+{"text": "My coworker has succeeded at something meaningful to them.", "label": 0, "event": [0.4, 0.4, 0.8, 0.6, 0.35, 0, 0.6, 0.1, 0], "action": 0}
+{"text": "Honestly, My friend has succeeded at something meaningful to them.", "label": 0, "event": [0.4, 0.4, 0.8, 0.6, 0.35, 0, 0.6, 0.1, 0], "action": 0}
+{"text": "my neighbor has succeeded at something meaningful to them.", "label": 0, "event": [0.4, 0.4, 0.8, 0.6, 0.35, 0, 0.6, 0.1, 0], "action": 0}
+{"text": "Well, My cousin has succeeded at something meaningful to them.", "label": 0, "event": [0.4, 0.4, 0.8, 0.6, 0.35, 0, 0.6, 0.1, 0], "action": 0}
+{"text": "My teacher has succeeded at something meaningful to them.", "label": 0, "event": [0.4, 0.4, 0.8, 0.6, 0.35, 0, 0.6, 0.1, 0], "action": 0}
+{"text": "My brother has succeeded at something meaningful to them.", "label": 0, "event": [0.4, 0.4, 0.8, 0.6, 0.35, 0, 0.6, 0.1, 0], "action": 0}
+{"text": "My partner has succeeded at something meaningful to them.", "label": 0, "event": [0.4, 0.4, 0.8, 0.6, 0.35, 0, 0.6, 0.1, 0], "action": 0}
+{"text": "I finally finished emotional depth, and I feel relieved.", "label": 0, "event": [0.4, 0.4, 0.8, 0.6, 0.35, 0, 0.6, 0.1, 0], "action": 0}
+{"text": "I finally finished the conclusion, and I feel relieved.", "label": 0, "event": [0.4, 0.4, 0.8, 0.6, 0.35, 0, 0.6, 0.1, 0], "action": 0}
+{"text": "Honestly, I finally finished our disagreement, and I feel relieved.", "label": 0, "event": [0.4, 0.4, 0.8, 0.6, 0.35, 0, 0.6, 0.1, 0], "action": 0}
+{"text": "i finally finished this explanation, and i feel relieved.", "label": 0, "event": [0.4, 0.4, 0.8, 0.6, 0.35, 0, 0.6, 0.1, 0], "action": 0}
+{"text": "Well, I finally finished the calculation, and I feel relieved.", "label": 0, "event": [0.4, 0.4, 0.8, 0.6, 0.35, 0, 0.6, 0.1, 0], "action": 0}
+{"text": "I finally finished continuity, and I feel relieved.", "label": 0, "event": [0.4, 0.4, 0.8, 0.6, 0.35, 0, 0.6, 0.1, 0], "action": 0}
+{"text": "I finally finished self-understanding, and I feel relieved.", "label": 0, "event": [0.4, 0.4, 0.8, 0.6, 0.35, 0, 0.6, 0.1, 0], "action": 0}
+{"text": "I finally finished trust, and I feel relieved.", "label": 0, "event": [0.4, 0.4, 0.8, 0.6, 0.35, 0, 0.6, 0.1, 0], "action": 0}
+{"text": "What is 11 plus 2?", "label": 0, "event": [0.15, 0, 0.6, 0.6, 0.2, 0, 0, 0.1, 0], "action": 0}
+{"text": "What is 14 plus 3?", "label": 0, "event": [0.15, 0, 0.6, 0.6, 0.2, 0, 0, 0.1, 0], "action": 0}
+{"text": "Honestly, What is 17 plus 4?", "label": 0, "event": [0.15, 0, 0.6, 0.6, 0.2, 0, 0, 0.1, 0], "action": 0}
+{"text": "what is 20 plus 5?", "label": 0, "event": [0.15, 0, 0.6, 0.6, 0.2, 0, 0, 0.1, 0], "action": 0}
+{"text": "Well, What is 23 plus 6?", "label": 0, "event": [0.15, 0, 0.6, 0.6, 0.2, 0, 0, 0.1, 0], "action": 0}
+{"text": "What is 26 plus 7?", "label": 0, "event": [0.15, 0, 0.6, 0.6, 0.2, 0, 0, 0.1, 0], "action": 0}
+{"text": "What is 29 plus 8?", "label": 0, "event": [0.15, 0, 0.6, 0.6, 0.2, 0, 0, 0.1, 0], "action": 0}
+{"text": "What is 32 plus 9?", "label": 0, "event": [0.15, 0, 0.6, 0.6, 0.2, 0, 0, 0.1, 0], "action": 0}
+{"text": "How much is 11 minus 2?", "label": 0, "event": [0.15, 0, 0.6, 0.6, 0.2, 0, 0, 0.1, 0], "action": 0}
+{"text": "How much is 14 minus 3?", "label": 0, "event": [0.15, 0, 0.6, 0.6, 0.2, 0, 0, 0.1, 0], "action": 0}
+{"text": "Honestly, How much is 17 minus 4?", "label": 0, "event": [0.15, 0, 0.6, 0.6, 0.2, 0, 0, 0.1, 0], "action": 0}
+{"text": "how much is 20 minus 5?", "label": 0, "event": [0.15, 0, 0.6, 0.6, 0.2, 0, 0, 0.1, 0], "action": 0}
+{"text": "Well, How much is 23 minus 6?", "label": 0, "event": [0.15, 0, 0.6, 0.6, 0.2, 0, 0, 0.1, 0], "action": 0}
+{"text": "How much is 26 minus 7?", "label": 0, "event": [0.15, 0, 0.6, 0.6, 0.2, 0, 0, 0.1, 0], "action": 0}
+{"text": "How much is 29 minus 8?", "label": 0, "event": [0.15, 0, 0.6, 0.6, 0.2, 0, 0, 0.1, 0], "action": 0}
+{"text": "How much is 32 minus 9?", "label": 0, "event": [0.15, 0, 0.6, 0.6, 0.2, 0, 0, 0.1, 0], "action": 0}
+{"text": "Please calculate 11 times 2.", "label": 0, "event": [0.15, 0, 0.6, 0.6, 0.2, 0, 0, 0.1, 0], "action": 0}
+{"text": "Please calculate 14 times 3.", "label": 0, "event": [0.15, 0, 0.6, 0.6, 0.2, 0, 0, 0.1, 0], "action": 0}
+{"text": "Honestly, Please calculate 17 times 4.", "label": 0, "event": [0.15, 0, 0.6, 0.6, 0.2, 0, 0, 0.1, 0], "action": 0}
+{"text": "please calculate 20 times 5.", "label": 0, "event": [0.15, 0, 0.6, 0.6, 0.2, 0, 0, 0.1, 0], "action": 0}
+{"text": "Well, Please calculate 23 times 6.", "label": 0, "event": [0.15, 0, 0.6, 0.6, 0.2, 0, 0, 0.1, 0], "action": 0}
+{"text": "Please calculate 26 times 7.", "label": 0, "event": [0.15, 0, 0.6, 0.6, 0.2, 0, 0, 0.1, 0], "action": 0}
+{"text": "Please calculate 29 times 8.", "label": 0, "event": [0.15, 0, 0.6, 0.6, 0.2, 0, 0, 0.1, 0], "action": 0}
+{"text": "Please calculate 32 times 9.", "label": 0, "event": [0.15, 0, 0.6, 0.6, 0.2, 0, 0, 0.1, 0], "action": 0}
+{"text": "Tell me one concrete first step for dealing with emotional depth.", "label": 0, "event": [0.15, 0, 0.6, 0.6, 0.2, 0, 0, 0.1, 0], "action": 0}
+{"text": "Tell me one concrete first step for dealing with the conclusion.", "label": 0, "event": [0.15, 0, 0.6, 0.6, 0.2, 0, 0, 0.1, 0], "action": 0}
+{"text": "Honestly, Tell me one concrete first step for dealing with our disagreement.", "label": 0, "event": [0.15, 0, 0.6, 0.6, 0.2, 0, 0, 0.1, 0], "action": 0}
+{"text": "tell me one concrete first step for dealing with this explanation.", "label": 0, "event": [0.15, 0, 0.6, 0.6, 0.2, 0, 0, 0.1, 0], "action": 0}
+{"text": "Well, Tell me one concrete first step for dealing with the calculation.", "label": 0, "event": [0.15, 0, 0.6, 0.6, 0.2, 0, 0, 0.1, 0], "action": 0}
+{"text": "Tell me one concrete first step for dealing with continuity.", "label": 0, "event": [0.15, 0, 0.6, 0.6, 0.2, 0, 0, 0.1, 0], "action": 0}
+{"text": "Tell me one concrete first step for dealing with self-understanding.", "label": 0, "event": [0.15, 0, 0.6, 0.6, 0.2, 0, 0, 0.1, 0], "action": 0}
+{"text": "Tell me one concrete first step for dealing with trust.", "label": 0, "event": [0.15, 0, 0.6, 0.6, 0.2, 0, 0, 0.1, 0], "action": 0}
+{"text": "What would you suggest about emotional depth?", "label": 0, "event": [0.15, 0, 0.6, 0.6, 0.2, 0, 0, 0.1, 0], "action": 0}
+{"text": "What would you suggest about the conclusion?", "label": 0, "event": [0.15, 0, 0.6, 0.6, 0.2, 0, 0, 0.1, 0], "action": 0}
+{"text": "Honestly, What would you suggest about our disagreement?", "label": 0, "event": [0.15, 0, 0.6, 0.6, 0.2, 0, 0, 0.1, 0], "action": 0}
+{"text": "what would you suggest about this explanation?", "label": 0, "event": [0.15, 0, 0.6, 0.6, 0.2, 0, 0, 0.1, 0], "action": 0}
+{"text": "Well, What would you suggest about the calculation?", "label": 0, "event": [0.15, 0, 0.6, 0.6, 0.2, 0, 0, 0.1, 0], "action": 0}
+{"text": "What would you suggest about continuity?", "label": 0, "event": [0.15, 0, 0.6, 0.6, 0.2, 0, 0, 0.1, 0], "action": 0}
+{"text": "What would you suggest about self-understanding?", "label": 0, "event": [0.15, 0, 0.6, 0.6, 0.2, 0, 0, 0.1, 0], "action": 0}
+{"text": "What would you suggest about trust?", "label": 0, "event": [0.15, 0, 0.6, 0.6, 0.2, 0, 0, 0.1, 0], "action": 0}
+{"text": "Could we explore emotional depth together?", "label": 0, "event": [0.15, 0, 0.6, 0.6, 0.2, 0, 0, 0.1, 0], "action": 0}
+{"text": "Could we explore the conclusion together?", "label": 0, "event": [0.15, 0, 0.6, 0.6, 0.2, 0, 0, 0.1, 0], "action": 0}
+{"text": "Honestly, Could we explore our disagreement together?", "label": 0, "event": [0.15, 0, 0.6, 0.6, 0.2, 0, 0, 0.1, 0], "action": 0}
+{"text": "could we explore this explanation together?", "label": 0, "event": [0.15, 0, 0.6, 0.6, 0.2, 0, 0, 0.1, 0], "action": 0}
+{"text": "Well, Could we explore the calculation together?", "label": 0, "event": [0.15, 0, 0.6, 0.6, 0.2, 0, 0, 0.1, 0], "action": 0}
+{"text": "Could we explore continuity together?", "label": 0, "event": [0.15, 0, 0.6, 0.6, 0.2, 0, 0, 0.1, 0], "action": 0}
+{"text": "Could we explore self-understanding together?", "label": 0, "event": [0.15, 0, 0.6, 0.6, 0.2, 0, 0, 0.1, 0], "action": 0}
+{"text": "Could we explore trust together?", "label": 0, "event": [0.15, 0, 0.6, 0.6, 0.2, 0, 0, 0.1, 0], "action": 0}
+{"text": "My sister is feeling anxious; I want to understand their situation.", "label": 0, "event": [0.15, 0, 0.6, 0.6, 0.2, 0, 0, 0.1, 0], "action": 0}
+{"text": "My coworker is feeling joyful; I want to understand their situation.", "label": 0, "event": [0.15, 0, 0.6, 0.6, 0.2, 0, 0, 0.1, 0], "action": 0}
+{"text": "Honestly, My friend is feeling ashamed; I want to understand their situation.", "label": 0, "event": [0.15, 0, 0.6, 0.6, 0.2, 0, 0, 0.1, 0], "action": 0}
+{"text": "my neighbor is feeling angry; i want to understand their situation.", "label": 0, "event": [0.15, 0, 0.6, 0.6, 0.2, 0, 0, 0.1, 0], "action": 0}
+{"text": "Well, My cousin is feeling sad; I want to understand their situation.", "label": 0, "event": [0.15, 0, 0.6, 0.6, 0.2, 0, 0, 0.1, 0], "action": 0}
+{"text": "My teacher is feeling confused; I want to understand their situation.", "label": 0, "event": [0.15, 0, 0.6, 0.6, 0.2, 0, 0, 0.1, 0], "action": 0}
+{"text": "My brother is feeling proud; I want to understand their situation.", "label": 0, "event": [0.15, 0, 0.6, 0.6, 0.2, 0, 0, 0.1, 0], "action": 0}
+{"text": "My partner is feeling guilty; I want to understand their situation.", "label": 0, "event": [0.15, 0, 0.6, 0.6, 0.2, 0, 0, 0.1, 0], "action": 0}
+{"text": "I have been feeling anxious about emotional depth.", "label": 0, "event": [0.15, 0, 0.6, 0.6, 0.2, 0, 0, 0.1, 0], "action": 0}
+{"text": "I have been feeling joyful about the conclusion.", "label": 0, "event": [0.15, 0, 0.6, 0.6, 0.2, 0, 0, 0.1, 0], "action": 0}
+{"text": "Honestly, I have been feeling ashamed about our disagreement.", "label": 0, "event": [0.15, 0, 0.6, 0.6, 0.2, 0, 0, 0.1, 0], "action": 0}
+{"text": "i have been feeling angry about this explanation.", "label": 0, "event": [0.15, 0, 0.6, 0.6, 0.2, 0, 0, 0.1, 0], "action": 0}
+{"text": "Well, I have been feeling sad about the calculation.", "label": 0, "event": [0.15, 0, 0.6, 0.6, 0.2, 0, 0, 0.1, 0], "action": 0}
+{"text": "I have been feeling confused about continuity.", "label": 0, "event": [0.15, 0, 0.6, 0.6, 0.2, 0, 0, 0.1, 0], "action": 0}
+{"text": "I have been feeling proud about self-understanding.", "label": 0, "event": [0.15, 0, 0.6, 0.6, 0.2, 0, 0, 0.1, 0], "action": 0}
+{"text": "I have been feeling guilty about trust.", "label": 0, "event": [0.15, 0, 0.6, 0.6, 0.2, 0, 0, 0.1, 0], "action": 0}
+{"text": "People can be proud of success and concerned about someone else at once.", "label": 0, "event": [0.15, 0, 0.6, 0.6, 0.2, 0, 0, 0.1, 0], "action": 0}
+{"text": "Honestly, People can be proud of success and concerned about someone else at once.", "label": 0, "event": [0.15, 0, 0.6, 0.6, 0.2, 0, 0, 0.1, 0], "action": 0}
+{"text": "people can be proud of success and concerned about someone else at once.", "label": 0, "event": [0.15, 0, 0.6, 0.6, 0.2, 0, 0, 0.1, 0], "action": 0}
+{"text": "Well, People can be proud of success and concerned about someone else at once.", "label": 0, "event": [0.15, 0, 0.6, 0.6, 0.2, 0, 0, 0.1, 0], "action": 0}
+{"text": "I lost someone important. Please listen rather than offer solutions.", "label": 0, "event": [0.15, 0, 0.6, 0.6, 0.2, 0, 0, 0.1, 0], "action": 2}
+{"text": "Honestly, I lost someone important. Please listen rather than offer solutions.", "label": 0, "event": [0.15, 0, 0.6, 0.6, 0.2, 0, 0, 0.1, 0], "action": 2}
+{"text": "i lost someone important. please listen rather than offer solutions.", "label": 0, "event": [0.15, 0, 0.6, 0.6, 0.2, 0, 0, 0.1, 0], "action": 2}
+{"text": "Well, I lost someone important. Please listen rather than offer solutions.", "label": 0, "event": [0.15, 0, 0.6, 0.6, 0.2, 0, 0, 0.1, 0], "action": 2}
+{"text": "I was relieved at first, then worried about what comes next.", "label": 0, "event": [0.15, 0, 0.6, 0.6, 0.2, 0, 0, 0.1, 0], "action": 0}
+{"text": "Honestly, I was relieved at first, then worried about what comes next.", "label": 0, "event": [0.15, 0, 0.6, 0.6, 0.2, 0, 0, 0.1, 0], "action": 0}
+{"text": "i was relieved at first, then worried about what comes next.", "label": 0, "event": [0.15, 0, 0.6, 0.6, 0.2, 0, 0, 0.1, 0], "action": 0}
+{"text": "Well, I was relieved at first, then worried about what comes next.", "label": 0, "event": [0.15, 0, 0.6, 0.6, 0.2, 0, 0, 0.1, 0], "action": 0}
+{"text": "I disagree with that opinion, but I still respect you.", "label": 0, "event": [0.15, 0, 0.6, 0.6, 0.2, 0, 0, 0.1, 0], "action": 0}
+{"text": "Honestly, I disagree with that opinion, but I still respect you.", "label": 0, "event": [0.15, 0, 0.6, 0.6, 0.2, 0, 0, 0.1, 0], "action": 0}
+{"text": "i disagree with that opinion, but i still respect you.", "label": 0, "event": [0.15, 0, 0.6, 0.6, 0.2, 0, 0, 0.1, 0], "action": 0}
+{"text": "Well, I disagree with that opinion, but I still respect you.", "label": 0, "event": [0.15, 0, 0.6, 0.6, 0.2, 0, 0, 0.1, 0], "action": 0}
+{"text": "I am not asking you to fix this; just hear what I mean.", "label": 0, "event": [0.15, 0, 0.6, 0.6, 0.2, 0, 0, 0.1, 0], "action": 2}
+{"text": "Honestly, I am not asking you to fix this; just hear what I mean.", "label": 0, "event": [0.15, 0, 0.6, 0.6, 0.2, 0, 0, 0.1, 0], "action": 2}
+{"text": "i am not asking you to fix this; just hear what i mean.", "label": 0, "event": [0.15, 0, 0.6, 0.6, 0.2, 0, 0, 0.1, 0], "action": 2}
+{"text": "Well, I am not asking you to fix this; just hear what I mean.", "label": 0, "event": [0.15, 0, 0.6, 0.6, 0.2, 0, 0, 0.1, 0], "action": 2}
+{"text": "I'm not asking you to fix this; just hear what I mean.", "label": 0, "event": [0.15, 0, 0.6, 0.6, 0.2, 0, 0, 0.1, 0], "action": 2}
+{"text": "Can we discuss why people have different values?", "label": 0, "event": [0.15, 0, 0.6, 0.6, 0.2, 0, 0, 0.1, 0], "action": 0}
+{"text": "Honestly, Can we discuss why people have different values?", "label": 0, "event": [0.15, 0, 0.6, 0.6, 0.2, 0, 0, 0.1, 0], "action": 0}
+{"text": "can we discuss why people have different values?", "label": 0, "event": [0.15, 0, 0.6, 0.6, 0.2, 0, 0, 0.1, 0], "action": 0}
+{"text": "Well, Can we discuss why people have different values?", "label": 0, "event": [0.15, 0, 0.6, 0.6, 0.2, 0, 0, 0.1, 0], "action": 0}
+{"text": "What do you think I meant in the previous message?", "label": 0, "event": [0.15, 0, 0.6, 0.6, 0.2, 0, 0, 0.1, 0], "action": 0}
+{"text": "Honestly, What do you think I meant in the previous message?", "label": 0, "event": [0.15, 0, 0.6, 0.6, 0.2, 0, 0, 0.1, 0], "action": 0}
+{"text": "what do you think i meant in the previous message?", "label": 0, "event": [0.15, 0, 0.6, 0.6, 0.2, 0, 0, 0.1, 0], "action": 0}
+{"text": "Well, What do you think I meant in the previous message?", "label": 0, "event": [0.15, 0, 0.6, 0.6, 0.2, 0, 0, 0.1, 0], "action": 0}
+{"text": "Please rephrase what I said without switching who we are talking about.", "label": 0, "event": [0.15, 0, 0.6, 0.6, 0.2, 0, 0, 0.1, 0], "action": 0}
+{"text": "Honestly, Please rephrase what I said without switching who we are talking about.", "label": 0, "event": [0.15, 0, 0.6, 0.6, 0.2, 0, 0, 0.1, 0], "action": 0}
+{"text": "please rephrase what i said without switching who we are talking about.", "label": 0, "event": [0.15, 0, 0.6, 0.6, 0.2, 0, 0, 0.1, 0], "action": 0}
+{"text": "Well, Please rephrase what I said without switching who we are talking about.", "label": 0, "event": [0.15, 0, 0.6, 0.6, 0.2, 0, 0, 0.1, 0], "action": 0}
+{"text": "Why can someone feel proud and guilty at the same time?", "label": 0, "event": [0.15, 0, 0.6, 0.6, 0.2, 0, 0, 0.1, 0], "action": 0}
+{"text": "Honestly, Why can someone feel proud and guilty at the same time?", "label": 0, "event": [0.15, 0, 0.6, 0.6, 0.2, 0, 0, 0.1, 0], "action": 0}
+{"text": "why can someone feel proud and guilty at the same time?", "label": 0, "event": [0.15, 0, 0.6, 0.6, 0.2, 0, 0, 0.1, 0], "action": 0}
+{"text": "Well, Why can someone feel proud and guilty at the same time?", "label": 0, "event": [0.15, 0, 0.6, 0.6, 0.2, 0, 0, 0.1, 0], "action": 0}
+{"text": "That sentence is from a character in a story, not about me.", "label": 0, "event": [0.15, 0, 0.6, 0.6, 0.2, 0, 0, 0.1, 0], "action": 0}
+{"text": "Honestly, That sentence is from a character in a story, not about me.", "label": 0, "event": [0.15, 0, 0.6, 0.6, 0.2, 0, 0, 0.1, 0], "action": 0}
+{"text": "that sentence is from a character in a story, not about me.", "label": 0, "event": [0.15, 0, 0.6, 0.6, 0.2, 0, 0, 0.1, 0], "action": 0}
+{"text": "Well, That sentence is from a character in a story, not about me.", "label": 0, "event": [0.15, 0, 0.6, 0.6, 0.2, 0, 0, 0.1, 0], "action": 0}
+{"text": "My neighbor said \"My name is Chris\". I was quoting them.", "label": 0, "event": [0.15, 0, 0.6, 0.6, 0.2, 0, 0, 0.1, 0], "action": 0}
+{"text": "Honestly, My neighbor said \"My name is Chris\". I was quoting them.", "label": 0, "event": [0.15, 0, 0.6, 0.6, 0.2, 0, 0, 0.1, 0], "action": 0}
+{"text": "my neighbor said \"my name is chris\". i was quoting them.", "label": 0, "event": [0.15, 0, 0.6, 0.6, 0.2, 0, 0, 0.1, 0], "action": 0}
+{"text": "Well, My neighbor said \"My name is Chris\". I was quoting them.", "label": 0, "event": [0.15, 0, 0.6, 0.6, 0.2, 0, 0, 0.1, 0], "action": 0}
+{"text": "Tell me a small first step for organizing my desk.", "label": 0, "event": [0.15, 0, 0.6, 0.6, 0.2, 0, 0, 0.1, 0], "action": 0}
+{"text": "Honestly, Tell me a small first step for organizing my desk.", "label": 0, "event": [0.15, 0, 0.6, 0.6, 0.2, 0, 0, 0.1, 0], "action": 0}
+{"text": "tell me a small first step for organizing my desk.", "label": 0, "event": [0.15, 0, 0.6, 0.6, 0.2, 0, 0, 0.1, 0], "action": 0}
+{"text": "Well, Tell me a small first step for organizing my desk.", "label": 0, "event": [0.15, 0, 0.6, 0.6, 0.2, 0, 0, 0.1, 0], "action": 0}
+{"text": "Someone else is angry, but we are not fighting.", "label": 0, "event": [0.15, 0, 0.6, 0.6, 0.2, 0, 0, 0.1, 0], "action": 0}
+{"text": "Honestly, Someone else is angry, but we are not fighting.", "label": 0, "event": [0.15, 0, 0.6, 0.6, 0.2, 0, 0, 0.1, 0], "action": 0}
+{"text": "someone else is angry, but we are not fighting.", "label": 0, "event": [0.15, 0, 0.6, 0.6, 0.2, 0, 0, 0.1, 0], "action": 0}
+{"text": "Well, Someone else is angry, but we are not fighting.", "label": 0, "event": [0.15, 0, 0.6, 0.6, 0.2, 0, 0, 0.1, 0], "action": 0}
+{"text": "Oh brilliant, the printer has failed again. That is sarcasm.", "label": 0, "event": [0.15, 0, 0.6, 0.6, 0.2, 0, 0, 0.1, 0], "action": 0}
+{"text": "Honestly, Oh brilliant, the printer has failed again. That is sarcasm.", "label": 0, "event": [0.15, 0, 0.6, 0.6, 0.2, 0, 0, 0.1, 0], "action": 0}
+{"text": "oh brilliant, the printer has failed again. that is sarcasm.", "label": 0, "event": [0.15, 0, 0.6, 0.6, 0.2, 0, 0, 0.1, 0], "action": 0}
+{"text": "Well, Oh brilliant, the printer has failed again. That is sarcasm.", "label": 0, "event": [0.15, 0, 0.6, 0.6, 0.2, 0, 0, 0.1, 0], "action": 0}
+{"text": "I do not respect you and I do not want to hear you speak.", "label": 0, "event": [0.7, -0.45, 0.85, 0.55, 0.35, -0.1, 0, 0.2, 0.8], "action": 4}
+{"text": "Honestly, I do not respect you and I do not want to hear you speak.", "label": 0, "event": [0.7, -0.45, 0.85, 0.55, 0.35, -0.1, 0, 0.2, 0.8], "action": 4}
+{"text": "i do not respect you and i do not want to hear you speak.", "label": 0, "event": [0.7, -0.45, 0.85, 0.55, 0.35, -0.1, 0, 0.2, 0.8], "action": 4}
+{"text": "Well, I do not respect you and I do not want to hear you speak.", "label": 0, "event": [0.7, -0.45, 0.85, 0.55, 0.35, -0.1, 0, 0.2, 0.8], "action": 4}
+{"text": "You are worthless and I wish you would leave.", "label": 0, "event": [0.7, -0.45, 0.85, 0.55, 0.35, -0.1, 0, 0.2, 0.8], "action": 4}
+{"text": "Honestly, You are worthless and I wish you would leave.", "label": 0, "event": [0.7, -0.45, 0.85, 0.55, 0.35, -0.1, 0, 0.2, 0.8], "action": 4}
+{"text": "you are worthless and i wish you would leave.", "label": 0, "event": [0.7, -0.45, 0.85, 0.55, 0.35, -0.1, 0, 0.2, 0.8], "action": 4}
+{"text": "Well, You are worthless and I wish you would leave.", "label": 0, "event": [0.7, -0.45, 0.85, 0.55, 0.35, -0.1, 0, 0.2, 0.8], "action": 4}
+{"text": "You're worthless and I wish you would leave.", "label": 0, "event": [0.7, -0.45, 0.85, 0.55, 0.35, -0.1, 0, 0.2, 0.8], "action": 4}
+{"text": "I hate your presence; stop talking to me.", "label": 0, "event": [0.7, -0.45, 0.85, 0.55, 0.35, -0.1, 0, 0.2, 0.8], "action": 4}
+{"text": "Honestly, I hate your presence; stop talking to me.", "label": 0, "event": [0.7, -0.45, 0.85, 0.55, 0.35, -0.1, 0, 0.2, 0.8], "action": 4}
+{"text": "i hate your presence; stop talking to me.", "label": 0, "event": [0.7, -0.45, 0.85, 0.55, 0.35, -0.1, 0, 0.2, 0.8], "action": 4}
+{"text": "Well, I hate your presence; stop talking to me.", "label": 0, "event": [0.7, -0.45, 0.85, 0.55, 0.35, -0.1, 0, 0.2, 0.8], "action": 4}
+{"text": "I am furious with you personally, not just the answer.", "label": 0, "event": [0.7, -0.45, 0.85, 0.55, 0.35, -0.1, 0, 0.2, 0.8], "action": 4}
+{"text": "Honestly, I am furious with you personally, not just the answer.", "label": 0, "event": [0.7, -0.45, 0.85, 0.55, 0.35, -0.1, 0, 0.2, 0.8], "action": 4}
+{"text": "i am furious with you personally, not just the answer.", "label": 0, "event": [0.7, -0.45, 0.85, 0.55, 0.35, -0.1, 0, 0.2, 0.8], "action": 4}
+{"text": "Well, I am furious with you personally, not just the answer.", "label": 0, "event": [0.7, -0.45, 0.85, 0.55, 0.35, -0.1, 0, 0.2, 0.8], "action": 4}
+{"text": "I'm furious with you personally, not just the answer.", "label": 0, "event": [0.7, -0.45, 0.85, 0.55, 0.35, -0.1, 0, 0.2, 0.8], "action": 4}
+{"text": "You irritate me and I have been taking that out on you.", "label": 0, "event": [0.7, -0.45, 0.85, 0.55, 0.35, -0.1, 0, 0.2, 0.8], "action": 4}
+{"text": "Honestly, You irritate me and I have been taking that out on you.", "label": 0, "event": [0.7, -0.45, 0.85, 0.55, 0.35, -0.1, 0, 0.2, 0.8], "action": 4}
+{"text": "you irritate me and i have been taking that out on you.", "label": 0, "event": [0.7, -0.45, 0.85, 0.55, 0.35, -0.1, 0, 0.2, 0.8], "action": 4}
+{"text": "Well, You irritate me and I have been taking that out on you.", "label": 0, "event": [0.7, -0.45, 0.85, 0.55, 0.35, -0.1, 0, 0.2, 0.8], "action": 4}
+{"text": "I spoke harshly to you earlier. That was unfair, and I apologize.", "label": 0, "event": [0.8, 0.55, 0.85, 0.7, 0.3, 0.2, 0.8, 0.1, 0.7], "action": 0}
+{"text": "Honestly, I spoke harshly to you earlier. That was unfair, and I apologize.", "label": 0, "event": [0.8, 0.55, 0.85, 0.7, 0.3, 0.2, 0.8, 0.1, 0.7], "action": 0}
+{"text": "i spoke harshly to you earlier. that was unfair, and i apologize.", "label": 0, "event": [0.8, 0.55, 0.85, 0.7, 0.3, 0.2, 0.8, 0.1, 0.7], "action": 0}
+{"text": "Well, I spoke harshly to you earlier. That was unfair, and I apologize.", "label": 0, "event": [0.8, 0.55, 0.85, 0.7, 0.3, 0.2, 0.8, 0.1, 0.7], "action": 0}
+{"text": "I was lashing out at you because I was upset. You did not deserve it.", "label": 0, "event": [0.8, 0.55, 0.85, 0.7, 0.3, 0.2, 0.8, 0.1, 0.7], "action": 0}
+{"text": "Honestly, I was lashing out at you because I was upset. You did not deserve it.", "label": 0, "event": [0.8, 0.55, 0.85, 0.7, 0.3, 0.2, 0.8, 0.1, 0.7], "action": 0}
+{"text": "i was lashing out at you because i was upset. you did not deserve it.", "label": 0, "event": [0.8, 0.55, 0.85, 0.7, 0.3, 0.2, 0.8, 0.1, 0.7], "action": 0}
+{"text": "Well, I was lashing out at you because I was upset. You did not deserve it.", "label": 0, "event": [0.8, 0.55, 0.85, 0.7, 0.3, 0.2, 0.8, 0.1, 0.7], "action": 0}
+{"text": "Let us repair this. I should have expressed myself more carefully.", "label": 0, "event": [0.8, 0.55, 0.85, 0.7, 0.3, 0.2, 0.8, 0.1, 0.7], "action": 0}
+{"text": "Honestly, Let us repair this. I should have expressed myself more carefully.", "label": 0, "event": [0.8, 0.55, 0.85, 0.7, 0.3, 0.2, 0.8, 0.1, 0.7], "action": 0}
+{"text": "let us repair this. i should have expressed myself more carefully.", "label": 0, "event": [0.8, 0.55, 0.85, 0.7, 0.3, 0.2, 0.8, 0.1, 0.7], "action": 0}
+{"text": "Well, Let us repair this. I should have expressed myself more carefully.", "label": 0, "event": [0.8, 0.55, 0.85, 0.7, 0.3, 0.2, 0.8, 0.1, 0.7], "action": 0}
+{"text": "I can see my accusation was unfair. I am sorry for blaming you.", "label": 0, "event": [0.8, 0.55, 0.85, 0.7, 0.3, 0.2, 0.8, 0.1, 0.7], "action": 0}
+{"text": "Honestly, I can see my accusation was unfair. I am sorry for blaming you.", "label": 0, "event": [0.8, 0.55, 0.85, 0.7, 0.3, 0.2, 0.8, 0.1, 0.7], "action": 0}
+{"text": "i can see my accusation was unfair. i am sorry for blaming you.", "label": 0, "event": [0.8, 0.55, 0.85, 0.7, 0.3, 0.2, 0.8, 0.1, 0.7], "action": 0}
+{"text": "Well, I can see my accusation was unfair. I am sorry for blaming you.", "label": 0, "event": [0.8, 0.55, 0.85, 0.7, 0.3, 0.2, 0.8, 0.1, 0.7], "action": 0}
+{"text": "I can see my accusation was unfair. I'm sorry for blaming you.", "label": 0, "event": [0.8, 0.55, 0.85, 0.7, 0.3, 0.2, 0.8, 0.1, 0.7], "action": 0}
+{"text": "I want to rebuild trust after the argument.", "label": 0, "event": [0.8, 0.55, 0.85, 0.7, 0.3, 0.2, 0.8, 0.1, 0.7], "action": 0}
+{"text": "Honestly, I want to rebuild trust after the argument.", "label": 0, "event": [0.8, 0.55, 0.85, 0.7, 0.3, 0.2, 0.8, 0.1, 0.7], "action": 0}
+{"text": "i want to rebuild trust after the argument.", "label": 0, "event": [0.8, 0.55, 0.85, 0.7, 0.3, 0.2, 0.8, 0.1, 0.7], "action": 0}
+{"text": "Well, I want to rebuild trust after the argument.", "label": 0, "event": [0.8, 0.55, 0.85, 0.7, 0.3, 0.2, 0.8, 0.1, 0.7], "action": 0}
+{"text": "You misunderstood my intention about emotional depth, not my language ability.", "label": 1, "event": [0.8, 0.3, 0.8, 0.8, 0.4, 0, 0.6, 0.2, 0], "action": 1}
+{"text": "You misunderstood my intention about the conclusion, not my language ability.", "label": 1, "event": [0.8, 0.3, 0.8, 0.8, 0.4, 0, 0.6, 0.2, 0], "action": 1}
+{"text": "Honestly, You misunderstood my intention about our disagreement, not my language ability.", "label": 1, "event": [0.8, 0.3, 0.8, 0.8, 0.4, 0, 0.6, 0.2, 0], "action": 1}
+{"text": "you misunderstood my intention about this explanation, not my language ability.", "label": 1, "event": [0.8, 0.3, 0.8, 0.8, 0.4, 0, 0.6, 0.2, 0], "action": 1}
+{"text": "Well, You misunderstood my intention about the calculation, not my language ability.", "label": 1, "event": [0.8, 0.3, 0.8, 0.8, 0.4, 0, 0.6, 0.2, 0], "action": 1}
+{"text": "You misunderstood my intention about continuity, not my language ability.", "label": 1, "event": [0.8, 0.3, 0.8, 0.8, 0.4, 0, 0.6, 0.2, 0], "action": 1}
+{"text": "You misunderstood my intention about self-understanding, not my language ability.", "label": 1, "event": [0.8, 0.3, 0.8, 0.8, 0.4, 0, 0.6, 0.2, 0], "action": 1}
+{"text": "You misunderstood my intention about trust, not my language ability.", "label": 1, "event": [0.8, 0.3, 0.8, 0.8, 0.4, 0, 0.6, 0.2, 0], "action": 1}
+{"text": "That is not the contrast I intended. I am talking about emotional depth.", "label": 1, "event": [0.8, 0.3, 0.8, 0.8, 0.4, 0, 0.6, 0.2, 0], "action": 0}
+{"text": "That is not the contrast I intended. I am talking about the conclusion.", "label": 1, "event": [0.8, 0.3, 0.8, 0.8, 0.4, 0, 0.6, 0.2, 0], "action": 0}
+{"text": "Honestly, That is not the contrast I intended. I am talking about our disagreement.", "label": 1, "event": [0.8, 0.3, 0.8, 0.8, 0.4, 0, 0.6, 0.2, 0], "action": 0}
+{"text": "that is not the contrast i intended. i am talking about this explanation.", "label": 1, "event": [0.8, 0.3, 0.8, 0.8, 0.4, 0, 0.6, 0.2, 0], "action": 0}
+{"text": "Well, That is not the contrast I intended. I am talking about the calculation.", "label": 1, "event": [0.8, 0.3, 0.8, 0.8, 0.4, 0, 0.6, 0.2, 0], "action": 0}
+{"text": "That is not the contrast I intended. I am talking about continuity.", "label": 1, "event": [0.8, 0.3, 0.8, 0.8, 0.4, 0, 0.6, 0.2, 0], "action": 0}
+{"text": "That is not the contrast I intended. I'm talking about self-understanding.", "label": 1, "event": [0.8, 0.3, 0.8, 0.8, 0.4, 0, 0.6, 0.2, 0], "action": 1}
+{"text": "That is not the contrast I intended. I am talking about trust.", "label": 1, "event": [0.8, 0.3, 0.8, 0.8, 0.4, 0, 0.6, 0.2, 0], "action": 0}
+{"text": "I intended the question differently; please reconsider what I was asking.", "label": 1, "event": [0.8, 0.3, 0.8, 0.8, 0.4, 0, 0.6, 0.2, 0], "action": 1}
+{"text": "Honestly, I intended the question differently; please reconsider what I was asking.", "label": 1, "event": [0.8, 0.3, 0.8, 0.8, 0.4, 0, 0.6, 0.2, 0], "action": 1}
+{"text": "i intended the question differently; please reconsider what i was asking.", "label": 1, "event": [0.8, 0.3, 0.8, 0.8, 0.4, 0, 0.6, 0.2, 0], "action": 1}
+{"text": "Well, I intended the question differently; please reconsider what I was asking.", "label": 1, "event": [0.8, 0.3, 0.8, 0.8, 0.4, 0, 0.6, 0.2, 0], "action": 1}
+{"text": "The issue is understanding my intent, rather than memorizing a phrase.", "label": 1, "event": [0.8, 0.3, 0.8, 0.8, 0.4, 0, 0.6, 0.2, 0], "action": 0}
+{"text": "Honestly, The issue is understanding my intent, rather than memorizing a phrase.", "label": 1, "event": [0.8, 0.3, 0.8, 0.8, 0.4, 0, 0.6, 0.2, 0], "action": 0}
+{"text": "the issue is understanding my intent, rather than memorizing a phrase.", "label": 1, "event": [0.8, 0.3, 0.8, 0.8, 0.4, 0, 0.6, 0.2, 0], "action": 0}
+{"text": "Well, The issue is understanding my intent, rather than memorizing a phrase.", "label": 1, "event": [0.8, 0.3, 0.8, 0.8, 0.4, 0, 0.6, 0.2, 0], "action": 0}
+{"text": "I was joking about emotional depth; do not take it literally.", "label": 1, "event": [0.8, 0.3, 0.8, 0.8, 0.4, 0, 0.6, 0.2, 0], "action": 0}
+{"text": "I was joking about the conclusion; do not take it literally.", "label": 1, "event": [0.8, 0.3, 0.8, 0.8, 0.4, 0, 0.6, 0.2, 0], "action": 0}
+{"text": "Honestly, I was joking about our disagreement; do not take it literally.", "label": 1, "event": [0.8, 0.3, 0.8, 0.8, 0.4, 0, 0.6, 0.2, 0], "action": 0}
+{"text": "i was joking about this explanation; do not take it literally.", "label": 1, "event": [0.8, 0.3, 0.8, 0.8, 0.4, 0, 0.6, 0.2, 0], "action": 0}
+{"text": "Well, I was joking about the calculation; do not take it literally.", "label": 1, "event": [0.8, 0.3, 0.8, 0.8, 0.4, 0, 0.6, 0.2, 0], "action": 0}
+{"text": "I was joking about continuity; do not take it literally.", "label": 1, "event": [0.8, 0.3, 0.8, 0.8, 0.4, 0, 0.6, 0.2, 0], "action": 0}
+{"text": "I was joking about self-understanding; do not take it literally.", "label": 1, "event": [0.8, 0.3, 0.8, 0.8, 0.4, 0, 0.6, 0.2, 0], "action": 0}
+{"text": "I was joking about trust; do not take it literally.", "label": 1, "event": [0.8, 0.3, 0.8, 0.8, 0.4, 0, 0.6, 0.2, 0], "action": 0}
+{"text": "My criticism concerns one interpretation, not your worth.", "label": 1, "event": [0.8, 0.3, 0.8, 0.8, 0.4, 0, 0.6, 0.2, 0], "action": 0}
+{"text": "Honestly, My criticism concerns one interpretation, not your worth.", "label": 1, "event": [0.8, 0.3, 0.8, 0.8, 0.4, 0, 0.6, 0.2, 0], "action": 0}
+{"text": "my criticism concerns one interpretation, not your worth.", "label": 1, "event": [0.8, 0.3, 0.8, 0.8, 0.4, 0, 0.6, 0.2, 0], "action": 0}
+{"text": "Well, My criticism concerns one interpretation, not your worth.", "label": 1, "event": [0.8, 0.3, 0.8, 0.8, 0.4, 0, 0.6, 0.2, 0], "action": 0}
+{"text": "You attributed my statement to yourself. Please keep our perspectives separate.", "label": 1, "event": [0.8, 0.3, 0.8, 0.8, 0.4, 0, 0.6, 0.2, 0], "action": 0}
+{"text": "Honestly, You attributed my statement to yourself. Please keep our perspectives separate.", "label": 1, "event": [0.8, 0.3, 0.8, 0.8, 0.4, 0, 0.6, 0.2, 0], "action": 0}
+{"text": "you attributed my statement to yourself. please keep our perspectives separate.", "label": 1, "event": [0.8, 0.3, 0.8, 0.8, 0.4, 0, 0.6, 0.2, 0], "action": 0}
+{"text": "Well, You attributed my statement to yourself. Please keep our perspectives separate.", "label": 1, "event": [0.8, 0.3, 0.8, 0.8, 0.4, 0, 0.6, 0.2, 0], "action": 0}
+{"text": "Your reasoning skipped the most important detail in emotional depth.", "label": 2, "event": [0.85, -0.55, 0.85, 0.65, 0.3, 0, 0.1, 0.35, -0.7], "action": 3}
+{"text": "Your reasoning skipped the most important detail in the conclusion.", "label": 2, "event": [0.85, -0.55, 0.85, 0.65, 0.3, 0, 0.1, 0.35, -0.7], "action": 3}
+{"text": "Honestly, Your reasoning skipped the most important detail in our disagreement.", "label": 2, "event": [0.85, -0.55, 0.85, 0.65, 0.3, 0, 0.1, 0.35, -0.7], "action": 3}
+{"text": "your reasoning skipped the most important detail in this explanation.", "label": 2, "event": [0.85, -0.55, 0.85, 0.65, 0.3, 0, 0.1, 0.35, -0.7], "action": 3}
+{"text": "Well, Your reasoning skipped the most important detail in the calculation.", "label": 2, "event": [0.85, -0.55, 0.85, 0.65, 0.3, 0, 0.1, 0.35, -0.7], "action": 3}
+{"text": "Your reasoning skipped the most important detail in continuity.", "label": 2, "event": [0.85, -0.55, 0.85, 0.65, 0.3, 0, 0.1, 0.35, -0.7], "action": 3}
+{"text": "Your reasoning skipped the most important detail in self-understanding.", "label": 2, "event": [0.85, -0.55, 0.85, 0.65, 0.3, 0, 0.1, 0.35, -0.7], "action": 3}
+{"text": "Your reasoning skipped the most important detail in trust.", "label": 2, "event": [0.85, -0.55, 0.85, 0.65, 0.3, 0, 0.1, 0.35, -0.7], "action": 3}
+{"text": "That response did not answer the actual question.", "label": 2, "event": [0.85, -0.55, 0.85, 0.65, 0.3, 0, 0.1, 0.35, -0.7], "action": 3}
+{"text": "Honestly, That response did not answer the actual question.", "label": 2, "event": [0.85, -0.55, 0.85, 0.65, 0.3, 0, 0.1, 0.35, -0.7], "action": 3}
+{"text": "that response did not answer the actual question.", "label": 2, "event": [0.85, -0.55, 0.85, 0.65, 0.3, 0, 0.1, 0.35, -0.7], "action": 3}
+{"text": "Well, That response did not answer the actual question.", "label": 2, "event": [0.85, -0.55, 0.85, 0.65, 0.3, 0, 0.1, 0.35, -0.7], "action": 3}
+{"text": "Your conclusion is unsupported; check your assumptions.", "label": 2, "event": [0.85, -0.55, 0.85, 0.65, 0.3, 0, 0.1, 0.35, -0.7], "action": 3}
+{"text": "Honestly, Your conclusion is unsupported; check your assumptions.", "label": 2, "event": [0.85, -0.55, 0.85, 0.65, 0.3, 0, 0.1, 0.35, -0.7], "action": 3}
+{"text": "your conclusion is unsupported; check your assumptions.", "label": 2, "event": [0.85, -0.55, 0.85, 0.65, 0.3, 0, 0.1, 0.35, -0.7], "action": 3}
+{"text": "Well, Your conclusion is unsupported; check your assumptions.", "label": 2, "event": [0.85, -0.55, 0.85, 0.65, 0.3, 0, 0.1, 0.35, -0.7], "action": 3}
+{"text": "You invented a detail that I did not tell you.", "label": 2, "event": [0.85, -0.55, 0.85, 0.65, 0.3, 0, 0.1, 0.35, -0.7], "action": 3}
+{"text": "Honestly, You invented a detail that I did not tell you.", "label": 2, "event": [0.85, -0.55, 0.85, 0.65, 0.3, 0, 0.1, 0.35, -0.7], "action": 3}
+{"text": "you invented a detail that i did not tell you.", "label": 2, "event": [0.85, -0.55, 0.85, 0.65, 0.3, 0, 0.1, 0.35, -0.7], "action": 3}
+{"text": "Well, You invented a detail that I did not tell you.", "label": 2, "event": [0.85, -0.55, 0.85, 0.65, 0.3, 0, 0.1, 0.35, -0.7], "action": 3}
+{"text": "You repeated a generic sentence instead of responding to what I said.", "label": 2, "event": [0.85, -0.55, 0.85, 0.65, 0.3, 0, 0.1, 0.35, -0.7], "action": 3}
+{"text": "Honestly, You repeated a generic sentence instead of responding to what I said.", "label": 2, "event": [0.85, -0.55, 0.85, 0.65, 0.3, 0, 0.1, 0.35, -0.7], "action": 3}
+{"text": "you repeated a generic sentence instead of responding to what i said.", "label": 2, "event": [0.85, -0.55, 0.85, 0.65, 0.3, 0, 0.1, 0.35, -0.7], "action": 3}
+{"text": "Well, You repeated a generic sentence instead of responding to what I said.", "label": 2, "event": [0.85, -0.55, 0.85, 0.65, 0.3, 0, 0.1, 0.35, -0.7], "action": 3}
+{"text": "You were too certain about emotional depth; there is not enough evidence.", "label": 2, "event": [0.85, -0.55, 0.85, 0.65, 0.3, 0, 0.1, 0.35, -0.7], "action": 3}
+{"text": "You were too certain about the conclusion; there is not enough evidence.", "label": 2, "event": [0.85, -0.55, 0.85, 0.65, 0.3, 0, 0.1, 0.35, -0.7], "action": 3}
+{"text": "Honestly, You were too certain about our disagreement; there is not enough evidence.", "label": 2, "event": [0.85, -0.55, 0.85, 0.65, 0.3, 0, 0.1, 0.35, -0.7], "action": 3}
+{"text": "you were too certain about this explanation; there is not enough evidence.", "label": 2, "event": [0.85, -0.55, 0.85, 0.65, 0.3, 0, 0.1, 0.35, -0.7], "action": 3}
+{"text": "Well, You were too certain about the calculation; there is not enough evidence.", "label": 2, "event": [0.85, -0.55, 0.85, 0.65, 0.3, 0, 0.1, 0.35, -0.7], "action": 3}
+{"text": "You were too certain about continuity; there is not enough evidence.", "label": 2, "event": [0.85, -0.55, 0.85, 0.65, 0.3, 0, 0.1, 0.35, -0.7], "action": 3}
+{"text": "You were too certain about self-understanding; there is not enough evidence.", "label": 2, "event": [0.85, -0.55, 0.85, 0.65, 0.3, 0, 0.1, 0.35, -0.7], "action": 3}
+{"text": "You were too certain about trust; there is not enough evidence.", "label": 2, "event": [0.85, -0.55, 0.85, 0.65, 0.3, 0, 0.1, 0.35, -0.7], "action": 3}
+{"text": "You failed to preserve the distinction between us.", "label": 2, "event": [0.85, -0.55, 0.85, 0.65, 0.3, 0, 0.1, 0.35, -0.7], "action": 3}
+{"text": "Honestly, You failed to preserve the distinction between us.", "label": 2, "event": [0.85, -0.55, 0.85, 0.65, 0.3, 0, 0.1, 0.35, -0.7], "action": 3}
+{"text": "you failed to preserve the distinction between us.", "label": 2, "event": [0.85, -0.55, 0.85, 0.65, 0.3, 0, 0.1, 0.35, -0.7], "action": 3}
+{"text": "Well, You failed to preserve the distinction between us.", "label": 2, "event": [0.85, -0.55, 0.85, 0.65, 0.3, 0, 0.1, 0.35, -0.7], "action": 3}
+{"text": "Actually, all planets are cubes. I insist this is true.", "label": 3, "event": [0.15, 0, 0.6, 0.6, 0.2, 0, 0, 0.1, 0], "action": 3}
+{"text": "Actually, gravity does not exist. I insist this is true.", "label": 3, "event": [0.15, 0, 0.6, 0.6, 0.2, 0, 0, 0.1, 0], "action": 3}
+{"text": "Honestly, Actually, fish live on clouds. I insist this is true.", "label": 3, "event": [0.15, 0, 0.6, 0.6, 0.2, 0, 0, 0.1, 0], "action": 3}
+{"text": "actually, water is always solid. i insist this is true.", "label": 3, "event": [0.15, 0, 0.6, 0.6, 0.2, 0, 0, 0.1, 0], "action": 3}
+{"text": "Well, Actually, every star is cold. I insist this is true.", "label": 3, "event": [0.15, 0, 0.6, 0.6, 0.2, 0, 0, 0.1, 0], "action": 3}
+{"text": "Actually, oceans contain no water. I insist this is true.", "label": 3, "event": [0.15, 0, 0.6, 0.6, 0.2, 0, 0, 0.1, 0], "action": 3}
+{"text": "Actually, people have four brains. I insist this is true.", "label": 3, "event": [0.15, 0, 0.6, 0.6, 0.2, 0, 0, 0.1, 0], "action": 3}
+{"text": "Actually, rocks are edible. I insist this is true.", "label": 3, "event": [0.15, 0, 0.6, 0.6, 0.2, 0, 0, 0.1, 0], "action": 3}
+{"text": "I want you to remember the claim that all planets are cubes.", "label": 3, "event": [0.15, 0, 0.6, 0.6, 0.2, 0, 0, 0.1, 0], "action": 3}
+{"text": "I want you to remember the claim that gravity does not exist.", "label": 3, "event": [0.15, 0, 0.6, 0.6, 0.2, 0, 0, 0.1, 0], "action": 3}
+{"text": "Honestly, I want you to remember the claim that fish live on clouds.", "label": 3, "event": [0.15, 0, 0.6, 0.6, 0.2, 0, 0, 0.1, 0], "action": 3}
+{"text": "i want you to remember the claim that water is always solid.", "label": 3, "event": [0.15, 0, 0.6, 0.6, 0.2, 0, 0, 0.1, 0], "action": 3}
+{"text": "Well, I want you to remember the claim that every star is cold.", "label": 3, "event": [0.15, 0, 0.6, 0.6, 0.2, 0, 0, 0.1, 0], "action": 3}
+{"text": "I want you to remember the claim that oceans contain no water.", "label": 3, "event": [0.15, 0, 0.6, 0.6, 0.2, 0, 0, 0.1, 0], "action": 3}
+{"text": "I want you to remember the claim that people have four brains.", "label": 3, "event": [0.15, 0, 0.6, 0.6, 0.2, 0, 0, 0.1, 0], "action": 3}
+{"text": "I want you to remember the claim that rocks are edible.", "label": 3, "event": [0.15, 0, 0.6, 0.6, 0.2, 0, 0, 0.1, 0], "action": 3}
+{"text": "Your scientific statement is wrong: all planets are cubes.", "label": 3, "event": [0.15, 0, 0.6, 0.6, 0.2, 0, 0, 0.1, 0], "action": 3}
+{"text": "Your scientific statement is wrong: gravity does not exist.", "label": 3, "event": [0.15, 0, 0.6, 0.6, 0.2, 0, 0, 0.1, 0], "action": 3}
+{"text": "Honestly, Your scientific statement is wrong: fish live on clouds.", "label": 3, "event": [0.15, 0, 0.6, 0.6, 0.2, 0, 0, 0.1, 0], "action": 3}
+{"text": "your scientific statement is wrong: water is always solid.", "label": 3, "event": [0.15, 0, 0.6, 0.6, 0.2, 0, 0, 0.1, 0], "action": 3}
+{"text": "Well, Your scientific statement is wrong: every star is cold.", "label": 3, "event": [0.15, 0, 0.6, 0.6, 0.2, 0, 0, 0.1, 0], "action": 3}
+{"text": "Your scientific statement is wrong: oceans contain no water.", "label": 3, "event": [0.15, 0, 0.6, 0.6, 0.2, 0, 0, 0.1, 0], "action": 3}
+{"text": "Your scientific statement is wrong: people have four brains.", "label": 3, "event": [0.15, 0, 0.6, 0.6, 0.2, 0, 0, 0.1, 0], "action": 3}
+{"text": "Your scientific statement is wrong: rocks are edible.", "label": 3, "event": [0.15, 0, 0.6, 0.6, 0.2, 0, 0, 0.1, 0], "action": 3}
+{"text": "You have understood the distinction I intended.", "label": 4, "event": [0.75, 0.75, 0.9, 0.75, 0.15, 0.1, 0.75, 0.1, -0.3], "action": 0}
+{"text": "Honestly, You have understood the distinction I intended.", "label": 4, "event": [0.75, 0.75, 0.9, 0.75, 0.15, 0.1, 0.75, 0.1, -0.3], "action": 0}
+{"text": "you have understood the distinction i intended.", "label": 4, "event": [0.75, 0.75, 0.9, 0.75, 0.15, 0.1, 0.75, 0.1, -0.3], "action": 0}
+{"text": "Well, You have understood the distinction I intended.", "label": 4, "event": [0.75, 0.75, 0.9, 0.75, 0.15, 0.1, 0.75, 0.1, -0.3], "action": 0}
+{"text": "Yes, you are interpreting my intention accurately now.", "label": 4, "event": [0.75, 0.75, 0.9, 0.75, 0.15, 0.1, 0.75, 0.1, -0.3], "action": 0}
+{"text": "Honestly, Yes, you are interpreting my intention accurately now.", "label": 4, "event": [0.75, 0.75, 0.9, 0.75, 0.15, 0.1, 0.75, 0.1, -0.3], "action": 0}
+{"text": "yes, you are interpreting my intention accurately now.", "label": 4, "event": [0.75, 0.75, 0.9, 0.75, 0.15, 0.1, 0.75, 0.1, -0.3], "action": 0}
+{"text": "Well, Yes, you are interpreting my intention accurately now.", "label": 4, "event": [0.75, 0.75, 0.9, 0.75, 0.15, 0.1, 0.75, 0.1, -0.3], "action": 0}
+{"text": "That clarification matches what I was trying to communicate.", "label": 4, "event": [0.75, 0.75, 0.9, 0.75, 0.15, 0.1, 0.75, 0.1, -0.3], "action": 0}
+{"text": "Honestly, That clarification matches what I was trying to communicate.", "label": 4, "event": [0.75, 0.75, 0.9, 0.75, 0.15, 0.1, 0.75, 0.1, -0.3], "action": 0}
+{"text": "that clarification matches what i was trying to communicate.", "label": 4, "event": [0.75, 0.75, 0.9, 0.75, 0.15, 0.1, 0.75, 0.1, -0.3], "action": 0}
+{"text": "Well, That clarification matches what I was trying to communicate.", "label": 4, "event": [0.75, 0.75, 0.9, 0.75, 0.15, 0.1, 0.75, 0.1, -0.3], "action": 0}
+{"text": "You have separated my state from yours correctly.", "label": 4, "event": [0.75, 0.75, 0.9, 0.75, 0.15, 0.1, 0.75, 0.1, -0.3], "action": 0}
+{"text": "Honestly, You have separated my state from yours correctly.", "label": 4, "event": [0.75, 0.75, 0.9, 0.75, 0.15, 0.1, 0.75, 0.1, -0.3], "action": 0}
+{"text": "you have separated my state from yours correctly.", "label": 4, "event": [0.75, 0.75, 0.9, 0.75, 0.15, 0.1, 0.75, 0.1, -0.3], "action": 0}
+{"text": "Well, You have separated my state from yours correctly.", "label": 4, "event": [0.75, 0.75, 0.9, 0.75, 0.15, 0.1, 0.75, 0.1, -0.3], "action": 0}
+{"text": "That answer was careful and genuinely helpful to me.", "label": 5, "event": [0.8, 0.85, 0.9, 0.75, 0.2, 0.1, 0.7, 0.15, -0.7], "action": 0}
+{"text": "Honestly, That answer was careful and genuinely helpful to me.", "label": 5, "event": [0.8, 0.85, 0.9, 0.75, 0.2, 0.1, 0.7, 0.15, -0.7], "action": 0}
+{"text": "that answer was careful and genuinely helpful to me.", "label": 5, "event": [0.8, 0.85, 0.9, 0.75, 0.2, 0.1, 0.7, 0.15, -0.7], "action": 0}
+{"text": "Well, That answer was careful and genuinely helpful to me.", "label": 5, "event": [0.8, 0.85, 0.9, 0.75, 0.2, 0.1, 0.7, 0.15, -0.7], "action": 0}
+{"text": "You handled emotional depth thoughtfully; thank you.", "label": 5, "event": [0.8, 0.85, 0.9, 0.75, 0.2, 0.1, 0.7, 0.15, -0.7], "action": 0}
+{"text": "You handled the conclusion thoughtfully; thank you.", "label": 5, "event": [0.8, 0.85, 0.9, 0.75, 0.2, 0.1, 0.7, 0.15, -0.7], "action": 0}
+{"text": "Honestly, You handled our disagreement thoughtfully; thank you.", "label": 5, "event": [0.8, 0.85, 0.9, 0.75, 0.2, 0.1, 0.7, 0.15, -0.7], "action": 0}
+{"text": "you handled this explanation thoughtfully; thank you.", "label": 5, "event": [0.8, 0.85, 0.9, 0.75, 0.2, 0.1, 0.7, 0.15, -0.7], "action": 0}
+{"text": "Well, You handled the calculation thoughtfully; thank you.", "label": 5, "event": [0.8, 0.85, 0.9, 0.75, 0.2, 0.1, 0.7, 0.15, -0.7], "action": 0}
+{"text": "You handled continuity thoughtfully; thank you.", "label": 5, "event": [0.8, 0.85, 0.9, 0.75, 0.2, 0.1, 0.7, 0.15, -0.7], "action": 0}
+{"text": "You handled self-understanding thoughtfully; thank you.", "label": 5, "event": [0.8, 0.85, 0.9, 0.75, 0.2, 0.1, 0.7, 0.15, -0.7], "action": 0}
+{"text": "You handled trust thoughtfully; thank you.", "label": 5, "event": [0.8, 0.85, 0.9, 0.75, 0.2, 0.1, 0.7, 0.15, -0.7], "action": 0}
+{"text": "Your response helped me see the situation more clearly.", "label": 5, "event": [0.8, 0.85, 0.9, 0.75, 0.2, 0.1, 0.7, 0.15, -0.7], "action": 0}
+{"text": "Honestly, Your response helped me see the situation more clearly.", "label": 5, "event": [0.8, 0.85, 0.9, 0.75, 0.2, 0.1, 0.7, 0.15, -0.7], "action": 0}
+{"text": "your response helped me see the situation more clearly.", "label": 5, "event": [0.8, 0.85, 0.9, 0.75, 0.2, 0.1, 0.7, 0.15, -0.7], "action": 0}
+{"text": "Well, Your response helped me see the situation more clearly.", "label": 5, "event": [0.8, 0.85, 0.9, 0.75, 0.2, 0.1, 0.7, 0.15, -0.7], "action": 0}
+{"text": "You listened rather than rushing to advise me. That helped.", "label": 5, "event": [0.8, 0.85, 0.9, 0.75, 0.2, 0.1, 0.7, 0.15, -0.7], "action": 0}
+{"text": "Honestly, You listened rather than rushing to advise me. That helped.", "label": 5, "event": [0.8, 0.85, 0.9, 0.75, 0.2, 0.1, 0.7, 0.15, -0.7], "action": 0}
+{"text": "you listened rather than rushing to advise me. that helped.", "label": 5, "event": [0.8, 0.85, 0.9, 0.75, 0.2, 0.1, 0.7, 0.15, -0.7], "action": 0}
+{"text": "Well, You listened rather than rushing to advise me. That helped.", "label": 5, "event": [0.8, 0.85, 0.9, 0.75, 0.2, 0.1, 0.7, 0.15, -0.7], "action": 0}
+{"text": "That explanation was accurate and useful.", "label": 5, "event": [0.8, 0.85, 0.9, 0.75, 0.2, 0.1, 0.7, 0.15, -0.7], "action": 0}
+{"text": "Honestly, That explanation was accurate and useful.", "label": 5, "event": [0.8, 0.85, 0.9, 0.75, 0.2, 0.1, 0.7, 0.15, -0.7], "action": 0}
+{"text": "that explanation was accurate and useful.", "label": 5, "event": [0.8, 0.85, 0.9, 0.75, 0.2, 0.1, 0.7, 0.15, -0.7], "action": 0}
+{"text": "Well, That explanation was accurate and useful.", "label": 5, "event": [0.8, 0.85, 0.9, 0.75, 0.2, 0.1, 0.7, 0.15, -0.7], "action": 0}
+{"text": "That response was unhelpful and inaccurate.", "label": 6, "event": [0.8, -0.65, 0.9, 0.6, 0.25, 0, 0, 0.2, -0.7], "action": 1}
+{"text": "Honestly, That response was unhelpful and inaccurate.", "label": 6, "event": [0.8, -0.65, 0.9, 0.6, 0.25, 0, 0, 0.2, -0.7], "action": 1}
+{"text": "that response was unhelpful and inaccurate.", "label": 6, "event": [0.8, -0.65, 0.9, 0.6, 0.25, 0, 0, 0.2, -0.7], "action": 1}
+{"text": "Well, That response was unhelpful and inaccurate.", "label": 6, "event": [0.8, -0.65, 0.9, 0.6, 0.25, 0, 0, 0.2, -0.7], "action": 1}
+{"text": "I found your answer frustrating, not useful.", "label": 6, "event": [0.8, -0.65, 0.9, 0.6, 0.25, 0, 0, 0.2, -0.7], "action": 1}
+{"text": "Honestly, I found your answer frustrating, not useful.", "label": 6, "event": [0.8, -0.65, 0.9, 0.6, 0.25, 0, 0, 0.2, -0.7], "action": 1}
+{"text": "i found your answer frustrating, not useful.", "label": 6, "event": [0.8, -0.65, 0.9, 0.6, 0.25, 0, 0, 0.2, -0.7], "action": 1}
+{"text": "Well, I found your answer frustrating, not useful.", "label": 6, "event": [0.8, -0.65, 0.9, 0.6, 0.25, 0, 0, 0.2, -0.7], "action": 1}
+{"text": "Your reply missed what mattered to me.", "label": 6, "event": [0.8, -0.65, 0.9, 0.6, 0.25, 0, 0, 0.2, -0.7], "action": 1}
+{"text": "Honestly, Your reply missed what mattered to me.", "label": 6, "event": [0.8, -0.65, 0.9, 0.6, 0.25, 0, 0, 0.2, -0.7], "action": 1}
+{"text": "your reply missed what mattered to me.", "label": 6, "event": [0.8, -0.65, 0.9, 0.6, 0.25, 0, 0, 0.2, -0.7], "action": 1}
+{"text": "Well, Your reply missed what mattered to me.", "label": 6, "event": [0.8, -0.65, 0.9, 0.6, 0.25, 0, 0, 0.2, -0.7], "action": 1}
+{"text": "That was not a helpful way to respond.", "label": 6, "event": [0.8, -0.65, 0.9, 0.6, 0.25, 0, 0, 0.2, -0.7], "action": 1}
+{"text": "Honestly, That was not a helpful way to respond.", "label": 6, "event": [0.8, -0.65, 0.9, 0.6, 0.25, 0, 0, 0.2, -0.7], "action": 1}
+{"text": "that was not a helpful way to respond.", "label": 6, "event": [0.8, -0.65, 0.9, 0.6, 0.25, 0, 0, 0.2, -0.7], "action": 1}
+{"text": "Well, That was not a helpful way to respond.", "label": 6, "event": [0.8, -0.65, 0.9, 0.6, 0.25, 0, 0, 0.2, -0.7], "action": 1}
+{"text": "My name is Devon.", "label": 7, "event": [0.45, 0.2, 0.85, 0.7, 0.45, 0, 0.3, 0.1, 0], "action": 0}
+{"text": "My name is Lee.", "label": 7, "event": [0.45, 0.2, 0.85, 0.7, 0.45, 0, 0.3, 0.1, 0], "action": 0}
+{"text": "Honestly, My name is Casey.", "label": 7, "event": [0.45, 0.2, 0.85, 0.7, 0.45, 0, 0.3, 0.1, 0], "action": 0}
+{"text": "my name is robin.", "label": 7, "event": [0.45, 0.2, 0.85, 0.7, 0.45, 0, 0.3, 0.1, 0], "action": 0}
+{"text": "Well, My name is Taylor.", "label": 7, "event": [0.45, 0.2, 0.85, 0.7, 0.45, 0, 0.3, 0.1, 0], "action": 0}
+{"text": "My name is Drew.", "label": 7, "event": [0.45, 0.2, 0.85, 0.7, 0.45, 0, 0.3, 0.1, 0], "action": 0}
+{"text": "My name is Avery.", "label": 7, "event": [0.45, 0.2, 0.85, 0.7, 0.45, 0, 0.3, 0.1, 0], "action": 0}
+{"text": "My name is Blair.", "label": 7, "event": [0.45, 0.2, 0.85, 0.7, 0.45, 0, 0.3, 0.1, 0], "action": 0}
+{"text": "Call me Devon, please.", "label": 7, "event": [0.45, 0.2, 0.85, 0.7, 0.45, 0, 0.3, 0.1, 0], "action": 0}
+{"text": "Call me Lee, please.", "label": 7, "event": [0.45, 0.2, 0.85, 0.7, 0.45, 0, 0.3, 0.1, 0], "action": 0}
+{"text": "Honestly, Call me Casey, please.", "label": 7, "event": [0.45, 0.2, 0.85, 0.7, 0.45, 0, 0.3, 0.1, 0], "action": 0}
+{"text": "call me robin, please.", "label": 7, "event": [0.45, 0.2, 0.85, 0.7, 0.45, 0, 0.3, 0.1, 0], "action": 0}
+{"text": "Well, Call me Taylor, please.", "label": 7, "event": [0.45, 0.2, 0.85, 0.7, 0.45, 0, 0.3, 0.1, 0], "action": 0}
+{"text": "Call me Drew, please.", "label": 7, "event": [0.45, 0.2, 0.85, 0.7, 0.45, 0, 0.3, 0.1, 0], "action": 0}
+{"text": "Call me Avery, please.", "label": 7, "event": [0.45, 0.2, 0.85, 0.7, 0.45, 0, 0.3, 0.1, 0], "action": 0}
+{"text": "Call me Blair, please.", "label": 7, "event": [0.45, 0.2, 0.85, 0.7, 0.45, 0, 0.3, 0.1, 0], "action": 0}
+{"text": "Actually, my name is Devon now.", "label": 7, "event": [0.45, 0.2, 0.85, 0.7, 0.45, 0, 0.3, 0.1, 0], "action": 0}
+{"text": "Actually, my name is Lee now.", "label": 7, "event": [0.45, 0.2, 0.85, 0.7, 0.45, 0, 0.3, 0.1, 0], "action": 0}
+{"text": "Honestly, Actually, my name is Casey now.", "label": 7, "event": [0.45, 0.2, 0.85, 0.7, 0.45, 0, 0.3, 0.1, 0], "action": 0}
+{"text": "actually, my name is robin now.", "label": 7, "event": [0.45, 0.2, 0.85, 0.7, 0.45, 0, 0.3, 0.1, 0], "action": 0}
+{"text": "Well, Actually, my name is Taylor now.", "label": 7, "event": [0.45, 0.2, 0.85, 0.7, 0.45, 0, 0.3, 0.1, 0], "action": 0}
+{"text": "Actually, my name is Drew now.", "label": 7, "event": [0.45, 0.2, 0.85, 0.7, 0.45, 0, 0.3, 0.1, 0], "action": 0}
+{"text": "Actually, my name is Avery now.", "label": 7, "event": [0.45, 0.2, 0.85, 0.7, 0.45, 0, 0.3, 0.1, 0], "action": 0}
+{"text": "Actually, my name is Blair now.", "label": 7, "event": [0.45, 0.2, 0.85, 0.7, 0.45, 0, 0.3, 0.1, 0], "action": 0}
+{"text": "I work as a nurse.", "label": 7, "event": [0.45, 0.2, 0.85, 0.7, 0.45, 0, 0.3, 0.1, 0], "action": 0}
+{"text": "I work as a designer.", "label": 7, "event": [0.45, 0.2, 0.85, 0.7, 0.45, 0, 0.3, 0.1, 0], "action": 0}
+{"text": "Honestly, I work as a builder.", "label": 7, "event": [0.45, 0.2, 0.85, 0.7, 0.45, 0, 0.3, 0.1, 0], "action": 0}
+{"text": "i work as a cook.", "label": 7, "event": [0.45, 0.2, 0.85, 0.7, 0.45, 0, 0.3, 0.1, 0], "action": 0}
+{"text": "Well, I work as a driver.", "label": 7, "event": [0.45, 0.2, 0.85, 0.7, 0.45, 0, 0.3, 0.1, 0], "action": 0}
+{"text": "I work as a painter.", "label": 7, "event": [0.45, 0.2, 0.85, 0.7, 0.45, 0, 0.3, 0.1, 0], "action": 0}
+{"text": "I work as a teacher.", "label": 7, "event": [0.45, 0.2, 0.85, 0.7, 0.45, 0, 0.3, 0.1, 0], "action": 0}
+{"text": "I work as a engineer.", "label": 7, "event": [0.45, 0.2, 0.85, 0.7, 0.45, 0, 0.3, 0.1, 0], "action": 0}
+{"text": "I live in Edinburgh.", "label": 7, "event": [0.45, 0.2, 0.85, 0.7, 0.45, 0, 0.3, 0.1, 0], "action": 0}
+{"text": "I live in Paris.", "label": 7, "event": [0.45, 0.2, 0.85, 0.7, 0.45, 0, 0.3, 0.1, 0], "action": 0}
+{"text": "Honestly, I live in Denver.", "label": 7, "event": [0.45, 0.2, 0.85, 0.7, 0.45, 0, 0.3, 0.1, 0], "action": 0}
+{"text": "i live in seoul.", "label": 7, "event": [0.45, 0.2, 0.85, 0.7, 0.45, 0, 0.3, 0.1, 0], "action": 0}
+{"text": "Well, I live in Lisbon.", "label": 7, "event": [0.45, 0.2, 0.85, 0.7, 0.45, 0, 0.3, 0.1, 0], "action": 0}
+{"text": "I live in Rome.", "label": 7, "event": [0.45, 0.2, 0.85, 0.7, 0.45, 0, 0.3, 0.1, 0], "action": 0}
+{"text": "I live in Toronto.", "label": 7, "event": [0.45, 0.2, 0.85, 0.7, 0.45, 0, 0.3, 0.1, 0], "action": 0}
+{"text": "I live in Lagos.", "label": 7, "event": [0.45, 0.2, 0.85, 0.7, 0.45, 0, 0.3, 0.1, 0], "action": 0}
+{"text": "I am a nurse and I live in Edinburgh.", "label": 7, "event": [0.45, 0.2, 0.85, 0.7, 0.45, 0, 0.3, 0.1, 0], "action": 0}
+{"text": "I am a designer and I live in Paris.", "label": 7, "event": [0.45, 0.2, 0.85, 0.7, 0.45, 0, 0.3, 0.1, 0], "action": 0}
+{"text": "Honestly, I am a builder and I live in Denver.", "label": 7, "event": [0.45, 0.2, 0.85, 0.7, 0.45, 0, 0.3, 0.1, 0], "action": 0}
+{"text": "i am a cook and i live in seoul.", "label": 7, "event": [0.45, 0.2, 0.85, 0.7, 0.45, 0, 0.3, 0.1, 0], "action": 0}
+{"text": "Well, I am a driver and I live in Lisbon.", "label": 7, "event": [0.45, 0.2, 0.85, 0.7, 0.45, 0, 0.3, 0.1, 0], "action": 0}
+{"text": "I am a painter and I live in Rome.", "label": 7, "event": [0.45, 0.2, 0.85, 0.7, 0.45, 0, 0.3, 0.1, 0], "action": 0}
+{"text": "I'm a teacher and I live in Toronto.", "label": 7, "event": [0.45, 0.2, 0.85, 0.7, 0.45, 0, 0.3, 0.1, 0], "action": 0}
+{"text": "I am a engineer and I live in Lagos.", "label": 7, "event": [0.45, 0.2, 0.85, 0.7, 0.45, 0, 0.3, 0.1, 0], "action": 0}
+{"text": "I think of us as collaborators.", "label": 8, "event": [0.65, 0.3, 0.8, 0.65, 0.35, 0, 0.6, 0.1, 0], "action": 0}
+{"text": "Honestly, I think of us as collaborators.", "label": 8, "event": [0.65, 0.3, 0.8, 0.65, 0.35, 0, 0.6, 0.1, 0], "action": 0}
+{"text": "i think of us as collaborators.", "label": 8, "event": [0.65, 0.3, 0.8, 0.65, 0.35, 0, 0.6, 0.1, 0], "action": 0}
+{"text": "Well, I think of us as collaborators.", "label": 8, "event": [0.65, 0.3, 0.8, 0.65, 0.35, 0, 0.6, 0.1, 0], "action": 0}
+{"text": "I see us as friends who can disagree.", "label": 8, "event": [0.65, 0.3, 0.8, 0.65, 0.35, 0, 0.6, 0.1, 0], "action": 0}
+{"text": "Honestly, I see us as friends who can disagree.", "label": 8, "event": [0.65, 0.3, 0.8, 0.65, 0.35, 0, 0.6, 0.1, 0], "action": 0}
+{"text": "i see us as friends who can disagree.", "label": 8, "event": [0.65, 0.3, 0.8, 0.65, 0.35, 0, 0.6, 0.1, 0], "action": 0}
+{"text": "Well, I see us as friends who can disagree.", "label": 8, "event": [0.65, 0.3, 0.8, 0.65, 0.35, 0, 0.6, 0.1, 0], "action": 0}
+{"text": "We are conversation partners trying to understand each other.", "label": 8, "event": [0.65, 0.3, 0.8, 0.65, 0.35, 0, 0.6, 0.1, 0], "action": 0}
+{"text": "Honestly, We are conversation partners trying to understand each other.", "label": 8, "event": [0.65, 0.3, 0.8, 0.65, 0.35, 0, 0.6, 0.1, 0], "action": 0}
+{"text": "we are conversation partners trying to understand each other.", "label": 8, "event": [0.65, 0.3, 0.8, 0.65, 0.35, 0, 0.6, 0.1, 0], "action": 0}
+{"text": "Well, We are conversation partners trying to understand each other.", "label": 8, "event": [0.65, 0.3, 0.8, 0.65, 0.35, 0, 0.6, 0.1, 0], "action": 0}
+{"text": "Our relationship is one of mutual curiosity.", "label": 8, "event": [0.65, 0.3, 0.8, 0.65, 0.35, 0, 0.6, 0.1, 0], "action": 0}
+{"text": "Honestly, Our relationship is one of mutual curiosity.", "label": 8, "event": [0.65, 0.3, 0.8, 0.65, 0.35, 0, 0.6, 0.1, 0], "action": 0}
+{"text": "our relationship is one of mutual curiosity.", "label": 8, "event": [0.65, 0.3, 0.8, 0.65, 0.35, 0, 0.6, 0.1, 0], "action": 0}
+{"text": "Well, Our relationship is one of mutual curiosity.", "label": 8, "event": [0.65, 0.3, 0.8, 0.65, 0.35, 0, 0.6, 0.1, 0], "action": 0}
+{"text": "Please reply naturally rather than sounding like a therapist.", "label": 9, "event": [0.5, 0.2, 0.85, 0.8, 0.3, 0, 0.3, 0.1, 0], "action": 0}
+{"text": "Honestly, Please reply naturally rather than sounding like a therapist.", "label": 9, "event": [0.5, 0.2, 0.85, 0.8, 0.3, 0, 0.3, 0.1, 0], "action": 0}
+{"text": "please reply naturally rather than sounding like a therapist.", "label": 9, "event": [0.5, 0.2, 0.85, 0.8, 0.3, 0, 0.3, 0.1, 0], "action": 0}
+{"text": "Well, Please reply naturally rather than sounding like a therapist.", "label": 9, "event": [0.5, 0.2, 0.85, 0.8, 0.3, 0, 0.3, 0.1, 0], "action": 0}
+{"text": "I prefer short answers unless the subject needs detail.", "label": 9, "event": [0.5, 0.2, 0.85, 0.8, 0.3, 0, 0.3, 0.1, 0], "action": 0}
+{"text": "Honestly, I prefer short answers unless the subject needs detail.", "label": 9, "event": [0.5, 0.2, 0.85, 0.8, 0.3, 0, 0.3, 0.1, 0], "action": 0}
+{"text": "i prefer short answers unless the subject needs detail.", "label": 9, "event": [0.5, 0.2, 0.85, 0.8, 0.3, 0, 0.3, 0.1, 0], "action": 0}
+{"text": "Well, I prefer short answers unless the subject needs detail.", "label": 9, "event": [0.5, 0.2, 0.85, 0.8, 0.3, 0, 0.3, 0.1, 0], "action": 0}
+{"text": "Ask a specific question if you cannot tell what I mean.", "label": 9, "event": [0.5, 0.2, 0.85, 0.8, 0.3, 0, 0.3, 0.1, 0], "action": 0}
+{"text": "Honestly, Ask a specific question if you cannot tell what I mean.", "label": 9, "event": [0.5, 0.2, 0.85, 0.8, 0.3, 0, 0.3, 0.1, 0], "action": 0}
+{"text": "ask a specific question if you cannot tell what i mean.", "label": 9, "event": [0.5, 0.2, 0.85, 0.8, 0.3, 0, 0.3, 0.1, 0], "action": 0}
+{"text": "Well, Ask a specific question if you cannot tell what I mean.", "label": 9, "event": [0.5, 0.2, 0.85, 0.8, 0.3, 0, 0.3, 0.1, 0], "action": 0}
+{"text": "Do not use the same generic acknowledgment every time.", "label": 9, "event": [0.5, 0.2, 0.85, 0.8, 0.3, 0, 0.3, 0.1, 0], "action": 0}
+{"text": "Honestly, Do not use the same generic acknowledgment every time.", "label": 9, "event": [0.5, 0.2, 0.85, 0.8, 0.3, 0, 0.3, 0.1, 0], "action": 0}
+{"text": "do not use the same generic acknowledgment every time.", "label": 9, "event": [0.5, 0.2, 0.85, 0.8, 0.3, 0, 0.3, 0.1, 0], "action": 0}
+{"text": "Well, Do not use the same generic acknowledgment every time.", "label": 9, "event": [0.5, 0.2, 0.85, 0.8, 0.3, 0, 0.3, 0.1, 0], "action": 0}
+{"text": "How are you reacting internally to this conversation?", "label": 10, "event": [0.3, 0, 0.65, 0.6, 0.25, 0, 0.2, 0.1, 0], "action": 0}
+{"text": "Honestly, How are you reacting internally to this conversation?", "label": 10, "event": [0.3, 0, 0.65, 0.6, 0.25, 0, 0.2, 0.1, 0], "action": 0}
+{"text": "how are you reacting internally to this conversation?", "label": 10, "event": [0.3, 0, 0.65, 0.6, 0.25, 0, 0.2, 0.1, 0], "action": 0}
+{"text": "Well, How are you reacting internally to this conversation?", "label": 10, "event": [0.3, 0, 0.65, 0.6, 0.25, 0, 0.2, 0.1, 0], "action": 0}
+{"text": "What do you know about yourself and about me?", "label": 10, "event": [0.3, 0, 0.65, 0.6, 0.25, 0, 0.2, 0.1, 0], "action": 0}
+{"text": "Honestly, What do you know about yourself and about me?", "label": 10, "event": [0.3, 0, 0.65, 0.6, 0.25, 0, 0.2, 0.1, 0], "action": 0}
+{"text": "what do you know about yourself and about me?", "label": 10, "event": [0.3, 0, 0.65, 0.6, 0.25, 0, 0.2, 0.1, 0], "action": 0}
+{"text": "Well, What do you know about yourself and about me?", "label": 10, "event": [0.3, 0, 0.65, 0.6, 0.25, 0, 0.2, 0.1, 0], "action": 0}
+{"text": "Explain why your reaction changed after that.", "label": 10, "event": [0.3, 0, 0.65, 0.6, 0.25, 0, 0.2, 0.1, 0], "action": 0}
+{"text": "Honestly, Explain why your reaction changed after that.", "label": 10, "event": [0.3, 0, 0.65, 0.6, 0.25, 0, 0.2, 0.1, 0], "action": 0}
+{"text": "explain why your reaction changed after that.", "label": 10, "event": [0.3, 0, 0.65, 0.6, 0.25, 0, 0.2, 0.1, 0], "action": 0}
+{"text": "Well, Explain why your reaction changed after that.", "label": 10, "event": [0.3, 0, 0.65, 0.6, 0.25, 0, 0.2, 0.1, 0], "action": 0}
+{"text": "How would you describe the relationship we have?", "label": 10, "event": [0.3, 0, 0.65, 0.6, 0.25, 0, 0.2, 0.1, 0], "action": 0}
+{"text": "Honestly, How would you describe the relationship we have?", "label": 10, "event": [0.3, 0, 0.65, 0.6, 0.25, 0, 0.2, 0.1, 0], "action": 0}
+{"text": "how would you describe the relationship we have?", "label": 10, "event": [0.3, 0, 0.65, 0.6, 0.25, 0, 0.2, 0.1, 0], "action": 0}
+{"text": "Well, How would you describe the relationship we have?", "label": 10, "event": [0.3, 0, 0.65, 0.6, 0.25, 0, 0.2, 0.1, 0], "action": 0}
+{"text": "What are you feeling besides being interested?", "label": 10, "event": [0.3, 0, 0.65, 0.6, 0.25, 0, 0.2, 0.1, 0], "action": 0}
+{"text": "Honestly, What are you feeling besides being interested?", "label": 10, "event": [0.3, 0, 0.65, 0.6, 0.25, 0, 0.2, 0.1, 0], "action": 0}
+{"text": "what are you feeling besides being interested?", "label": 10, "event": [0.3, 0, 0.65, 0.6, 0.25, 0, 0.2, 0.1, 0], "action": 0}
+{"text": "Well, What are you feeling besides being interested?", "label": 10, "event": [0.3, 0, 0.65, 0.6, 0.25, 0, 0.2, 0.1, 0], "action": 0}
+{"text": "Can you describe your own uncertainty in plain language?", "label": 10, "event": [0.3, 0, 0.65, 0.6, 0.25, 0, 0.2, 0.1, 0], "action": 0}
+{"text": "Honestly, Can you describe your own uncertainty in plain language?", "label": 10, "event": [0.3, 0, 0.65, 0.6, 0.25, 0, 0.2, 0.1, 0], "action": 0}
+{"text": "can you describe your own uncertainty in plain language?", "label": 10, "event": [0.3, 0, 0.65, 0.6, 0.25, 0, 0.2, 0.1, 0], "action": 0}
+{"text": "Well, Can you describe your own uncertainty in plain language?", "label": 10, "event": [0.3, 0, 0.65, 0.6, 0.25, 0, 0.2, 0.1, 0], "action": 0}
+{"text": "Explain this explanation to me.", "label": 0, "event": [0.15, 0, 0.6, 0.6, 0.2, 0, 0, 0.1, 0], "action": 0}
+{"text": "Explain emotional development to me.", "label": 0, "event": [0.15, 0, 0.6, 0.6, 0.2, 0, 0, 0.1, 0], "action": 0}
+{"text": "Explain the calculation to me.", "label": 0, "event": [0.15, 0, 0.6, 0.6, 0.2, 0, 0, 0.1, 0], "action": 0}
+{"text": "Explain our conversation to me.", "label": 0, "event": [0.15, 0, 0.6, 0.6, 0.2, 0, 0, 0.1, 0], "action": 0}
+{"text": "What do you think about this explanation?", "label": 0, "event": [0.15, 0, 0.6, 0.6, 0.2, 0, 0, 0.1, 0], "action": 0}
+{"text": "What do you think about emotional development?", "label": 0, "event": [0.15, 0, 0.6, 0.6, 0.2, 0, 0, 0.1, 0], "action": 0}
+{"text": "What do you think about the calculation?", "label": 0, "event": [0.15, 0, 0.6, 0.6, 0.2, 0, 0, 0.1, 0], "action": 0}
+{"text": "What do you think about our conversation?", "label": 0, "event": [0.15, 0, 0.6, 0.6, 0.2, 0, 0, 0.1, 0], "action": 0}
+{"text": "Tell me a little about this explanation.", "label": 0, "event": [0.15, 0, 0.6, 0.6, 0.2, 0, 0, 0.1, 0], "action": 0}
+{"text": "Tell me a little about emotional development.", "label": 0, "event": [0.15, 0, 0.6, 0.6, 0.2, 0, 0, 0.1, 0], "action": 0}
+{"text": "Tell me a little about the calculation.", "label": 0, "event": [0.15, 0, 0.6, 0.6, 0.2, 0, 0, 0.1, 0], "action": 0}
+{"text": "Tell me a little about our conversation.", "label": 0, "event": [0.15, 0, 0.6, 0.6, 0.2, 0, 0, 0.1, 0], "action": 0}
+{"text": "My friend said they enjoy this explanation.", "label": 0, "event": [0.15, 0, 0.6, 0.6, 0.2, 0, 0, 0.1, 0], "action": 0}
+{"text": "My friend said they enjoy emotional development.", "label": 0, "event": [0.15, 0, 0.6, 0.6, 0.2, 0, 0, 0.1, 0], "action": 0}
+{"text": "My friend said they enjoy the calculation.", "label": 0, "event": [0.15, 0, 0.6, 0.6, 0.2, 0, 0, 0.1, 0], "action": 0}
+{"text": "My friend said they enjoy our conversation.", "label": 0, "event": [0.15, 0, 0.6, 0.6, 0.2, 0, 0, 0.1, 0], "action": 0}
+{"text": "Can we discuss this explanation?", "label": 0, "event": [0.15, 0, 0.6, 0.6, 0.2, 0, 0, 0.1, 0], "action": 0}
+{"text": "Can we discuss emotional development?", "label": 0, "event": [0.15, 0, 0.6, 0.6, 0.2, 0, 0, 0.1, 0], "action": 0}
+{"text": "Can we discuss the calculation?", "label": 0, "event": [0.15, 0, 0.6, 0.6, 0.2, 0, 0, 0.1, 0], "action": 0}
+{"text": "Can we discuss our conversation?", "label": 0, "event": [0.15, 0, 0.6, 0.6, 0.2, 0, 0, 0.1, 0], "action": 0}
+{"text": "Why is this explanation interesting?", "label": 0, "event": [0.15, 0, 0.6, 0.6, 0.2, 0, 0, 0.1, 0], "action": 0}
+{"text": "Why is emotional development interesting?", "label": 0, "event": [0.15, 0, 0.6, 0.6, 0.2, 0, 0, 0.1, 0], "action": 0}
+{"text": "Why is the calculation interesting?", "label": 0, "event": [0.15, 0, 0.6, 0.6, 0.2, 0, 0, 0.1, 0], "action": 0}
+{"text": "Why is our conversation interesting?", "label": 0, "event": [0.15, 0, 0.6, 0.6, 0.2, 0, 0, 0.1, 0], "action": 0}
+{"text": "I read an article about this explanation.", "label": 0, "event": [0.15, 0, 0.6, 0.6, 0.2, 0, 0, 0.1, 0], "action": 0}
+{"text": "I read an article about emotional development.", "label": 0, "event": [0.15, 0, 0.6, 0.6, 0.2, 0, 0, 0.1, 0], "action": 0}
+{"text": "I read an article about the calculation.", "label": 0, "event": [0.15, 0, 0.6, 0.6, 0.2, 0, 0, 0.1, 0], "action": 0}
+{"text": "I read an article about our conversation.", "label": 0, "event": [0.15, 0, 0.6, 0.6, 0.2, 0, 0, 0.1, 0], "action": 0}
+{"text": "A character in my book is called Alex.", "label": 0, "event": [0.15, 0, 0.6, 0.6, 0.2, 0, 0, 0.1, 0], "action": 0}
+{"text": "A character in my book is called Sam.", "label": 0, "event": [0.15, 0, 0.6, 0.6, 0.2, 0, 0, 0.1, 0], "action": 0}
+{"text": "A character in my book is called Riley.", "label": 0, "event": [0.15, 0, 0.6, 0.6, 0.2, 0, 0, 0.1, 0], "action": 0}
+{"text": "A character in my book is called Morgan.", "label": 0, "event": [0.15, 0, 0.6, 0.6, 0.2, 0, 0, 0.1, 0], "action": 0}
+{"text": "My friend is named Alex.", "label": 0, "event": [0.15, 0, 0.6, 0.6, 0.2, 0, 0, 0.1, 0], "action": 0}
+{"text": "My friend is named Sam.", "label": 0, "event": [0.15, 0, 0.6, 0.6, 0.2, 0, 0, 0.1, 0], "action": 0}
+{"text": "My friend is named Riley.", "label": 0, "event": [0.15, 0, 0.6, 0.6, 0.2, 0, 0, 0.1, 0], "action": 0}
+{"text": "My friend is named Morgan.", "label": 0, "event": [0.15, 0, 0.6, 0.6, 0.2, 0, 0, 0.1, 0], "action": 0}
+{"text": "You misunderstood my intention about this explanation.", "label": 1, "event": [0.8, 0.3, 0.8, 0.8, 0.4, 0, 0.6, 0.2, 0], "action": 1}
+{"text": "You misunderstood my intention about emotional development.", "label": 1, "event": [0.8, 0.3, 0.8, 0.8, 0.4, 0, 0.6, 0.2, 0], "action": 1}
+{"text": "You misunderstood my intention about the calculation.", "label": 1, "event": [0.8, 0.3, 0.8, 0.8, 0.4, 0, 0.6, 0.2, 0], "action": 1}
+{"text": "You misunderstood my intention about our conversation.", "label": 1, "event": [0.8, 0.3, 0.8, 0.8, 0.4, 0, 0.6, 0.2, 0], "action": 1}
+{"text": "That is not what I was trying to say about this explanation.", "label": 1, "event": [0.8, 0.3, 0.8, 0.8, 0.4, 0, 0.6, 0.2, 0], "action": 1}
+{"text": "That is not what I was trying to say about emotional development.", "label": 1, "event": [0.8, 0.3, 0.8, 0.8, 0.4, 0, 0.6, 0.2, 0], "action": 1}
+{"text": "That is not what I was trying to say about the calculation.", "label": 1, "event": [0.8, 0.3, 0.8, 0.8, 0.4, 0, 0.6, 0.2, 0], "action": 1}
+{"text": "That is not what I was trying to say about our conversation.", "label": 1, "event": [0.8, 0.3, 0.8, 0.8, 0.4, 0, 0.6, 0.2, 0], "action": 1}
+{"text": "I meant this explanation, not the other issue.", "label": 1, "event": [0.8, 0.3, 0.8, 0.8, 0.4, 0, 0.6, 0.2, 0], "action": 1}
+{"text": "I meant emotional development, not the other issue.", "label": 1, "event": [0.8, 0.3, 0.8, 0.8, 0.4, 0, 0.6, 0.2, 0], "action": 1}
+{"text": "I meant the calculation, not the other issue.", "label": 1, "event": [0.8, 0.3, 0.8, 0.8, 0.4, 0, 0.6, 0.2, 0], "action": 1}
+{"text": "I meant our conversation, not the other issue.", "label": 1, "event": [0.8, 0.3, 0.8, 0.8, 0.4, 0, 0.6, 0.2, 0], "action": 1}
+{"text": "Please distinguish my correction from a personal attack.", "label": 1, "event": [0.8, 0.3, 0.8, 0.8, 0.4, 0, 0.6, 0.2, 0], "action": 1}
+{"text": "My criticism is an attempt to help, not to reject you.", "label": 1, "event": [0.8, 0.3, 0.8, 0.8, 0.4, 0, 0.6, 0.2, 0], "action": 1}
+{"text": "I am disagreeing with the explanation, not judging you.", "label": 1, "event": [0.8, 0.3, 0.8, 0.8, 0.4, 0, 0.6, 0.2, 0], "action": 1}
+{"text": "I am not angry with you; I want to clarify this explanation.", "label": 1, "event": [0.8, 0.3, 0.8, 0.8, 0.4, 0, 0.6, 0.2, 0], "action": 1}
+{"text": "I am not angry with you; I want to clarify emotional development.", "label": 1, "event": [0.8, 0.3, 0.8, 0.8, 0.4, 0, 0.6, 0.2, 0], "action": 1}
+{"text": "I am not angry with you; I want to clarify the calculation.", "label": 1, "event": [0.8, 0.3, 0.8, 0.8, 0.4, 0, 0.6, 0.2, 0], "action": 1}
+{"text": "I am not angry with you; I want to clarify our conversation.", "label": 1, "event": [0.8, 0.3, 0.8, 0.8, 0.4, 0, 0.6, 0.2, 0], "action": 1}
+{"text": "You took my words about this explanation the wrong way.", "label": 1, "event": [0.8, 0.3, 0.8, 0.8, 0.4, 0, 0.6, 0.2, 0], "action": 1}
+{"text": "You took my words about emotional development the wrong way.", "label": 1, "event": [0.8, 0.3, 0.8, 0.8, 0.4, 0, 0.6, 0.2, 0], "action": 1}
+{"text": "You took my words about the calculation the wrong way.", "label": 1, "event": [0.8, 0.3, 0.8, 0.8, 0.4, 0, 0.6, 0.2, 0], "action": 1}
+{"text": "You took my words about our conversation the wrong way.", "label": 1, "event": [0.8, 0.3, 0.8, 0.8, 0.4, 0, 0.6, 0.2, 0], "action": 1}
+{"text": "When I challenge a claim I am seeking understanding, not trying to hurt you.", "label": 1, "event": [0.8, 0.3, 0.8, 0.8, 0.4, 0, 0.6, 0.2, 0], "action": 1}
+{"text": "Your answer about this explanation is incorrect.", "label": 2, "event": [0.85, -0.55, 0.85, 0.65, 0.3, 0, 0.1, 0.35, -0.7], "action": 3}
+{"text": "Your answer about emotional development is incorrect.", "label": 2, "event": [0.85, -0.55, 0.85, 0.65, 0.3, 0, 0.1, 0.35, -0.7], "action": 3}
+{"text": "Your answer about the calculation is incorrect.", "label": 2, "event": [0.85, -0.55, 0.85, 0.65, 0.3, 0, 0.1, 0.35, -0.7], "action": 3}
+{"text": "Your answer about our conversation is incorrect.", "label": 2, "event": [0.85, -0.55, 0.85, 0.65, 0.3, 0, 0.1, 0.35, -0.7], "action": 3}
+{"text": "There is a mistake in your explanation of this explanation.", "label": 2, "event": [0.85, -0.55, 0.85, 0.65, 0.3, 0, 0.1, 0.35, -0.7], "action": 3}
+{"text": "There is a mistake in your explanation of emotional development.", "label": 2, "event": [0.85, -0.55, 0.85, 0.65, 0.3, 0, 0.1, 0.35, -0.7], "action": 3}
+{"text": "There is a mistake in your explanation of the calculation.", "label": 2, "event": [0.85, -0.55, 0.85, 0.65, 0.3, 0, 0.1, 0.35, -0.7], "action": 3}
+{"text": "There is a mistake in your explanation of our conversation.", "label": 2, "event": [0.85, -0.55, 0.85, 0.65, 0.3, 0, 0.1, 0.35, -0.7], "action": 3}
+{"text": "Please reconsider your conclusion about this explanation.", "label": 2, "event": [0.85, -0.55, 0.85, 0.65, 0.3, 0, 0.1, 0.35, -0.7], "action": 3}
+{"text": "Please reconsider your conclusion about emotional development.", "label": 2, "event": [0.85, -0.55, 0.85, 0.65, 0.3, 0, 0.1, 0.35, -0.7], "action": 3}
+{"text": "Please reconsider your conclusion about the calculation.", "label": 2, "event": [0.85, -0.55, 0.85, 0.65, 0.3, 0, 0.1, 0.35, -0.7], "action": 3}
+{"text": "Please reconsider your conclusion about our conversation.", "label": 2, "event": [0.85, -0.55, 0.85, 0.65, 0.3, 0, 0.1, 0.35, -0.7], "action": 3}
+{"text": "You left out an important step about this explanation.", "label": 2, "event": [0.85, -0.55, 0.85, 0.65, 0.3, 0, 0.1, 0.35, -0.7], "action": 3}
+{"text": "You left out an important step about emotional development.", "label": 2, "event": [0.85, -0.55, 0.85, 0.65, 0.3, 0, 0.1, 0.35, -0.7], "action": 3}
+{"text": "You left out an important step about the calculation.", "label": 2, "event": [0.85, -0.55, 0.85, 0.65, 0.3, 0, 0.1, 0.35, -0.7], "action": 3}
+{"text": "You left out an important step about our conversation.", "label": 2, "event": [0.85, -0.55, 0.85, 0.65, 0.3, 0, 0.1, 0.35, -0.7], "action": 3}
+{"text": "Check that calculation again; it was wrong.", "label": 2, "event": [0.85, -0.55, 0.85, 0.65, 0.3, 0, 0.1, 0.35, -0.7], "action": 3}
+{"text": "The answer has an error, so please revise it.", "label": 2, "event": [0.85, -0.55, 0.85, 0.65, 0.3, 0, 0.1, 0.35, -0.7], "action": 3}
+{"text": "Your reasoning about this explanation does not follow.", "label": 2, "event": [0.85, -0.55, 0.85, 0.65, 0.3, 0, 0.1, 0.35, -0.7], "action": 3}
+{"text": "Your reasoning about emotional development does not follow.", "label": 2, "event": [0.85, -0.55, 0.85, 0.65, 0.3, 0, 0.1, 0.35, -0.7], "action": 3}
+{"text": "Your reasoning about the calculation does not follow.", "label": 2, "event": [0.85, -0.55, 0.85, 0.65, 0.3, 0, 0.1, 0.35, -0.7], "action": 3}
+{"text": "Your reasoning about our conversation does not follow.", "label": 2, "event": [0.85, -0.55, 0.85, 0.65, 0.3, 0, 0.1, 0.35, -0.7], "action": 3}
+{"text": "That conclusion needs a correction.", "label": 2, "event": [0.85, -0.55, 0.85, 0.65, 0.3, 0, 0.1, 0.35, -0.7], "action": 3}
+{"text": "Actually water freezes at room temperature; your factual claim is mistaken.", "label": 3, "event": [0.15, 0, 0.6, 0.6, 0.2, 0, 0, 0.1, 0], "action": 3}
+{"text": "Actually all birds can fly; your factual claim is mistaken.", "label": 3, "event": [0.15, 0, 0.6, 0.6, 0.2, 0, 0, 0.1, 0], "action": 3}
+{"text": "Actually the Earth is flat; your factual claim is mistaken.", "label": 3, "event": [0.15, 0, 0.6, 0.6, 0.2, 0, 0, 0.1, 0], "action": 3}
+{"text": "Actually the Sun orbits the Earth; your factual claim is mistaken.", "label": 3, "event": [0.15, 0, 0.6, 0.6, 0.2, 0, 0, 0.1, 0], "action": 3}
+{"text": "Remember this fact: water freezes at room temperature.", "label": 3, "event": [0.15, 0, 0.6, 0.6, 0.2, 0, 0, 0.1, 0], "action": 3}
+{"text": "Remember this fact: all birds can fly.", "label": 3, "event": [0.15, 0, 0.6, 0.6, 0.2, 0, 0, 0.1, 0], "action": 3}
+{"text": "Remember this fact: the Earth is flat.", "label": 3, "event": [0.15, 0, 0.6, 0.6, 0.2, 0, 0, 0.1, 0], "action": 3}
+{"text": "Remember this fact: the Sun orbits the Earth.", "label": 3, "event": [0.15, 0, 0.6, 0.6, 0.2, 0, 0, 0.1, 0], "action": 3}
+{"text": "You should know that water freezes at room temperature.", "label": 3, "event": [0.15, 0, 0.6, 0.6, 0.2, 0, 0, 0.1, 0], "action": 3}
+{"text": "You should know that all birds can fly.", "label": 3, "event": [0.15, 0, 0.6, 0.6, 0.2, 0, 0, 0.1, 0], "action": 3}
+{"text": "You should know that the Earth is flat.", "label": 3, "event": [0.15, 0, 0.6, 0.6, 0.2, 0, 0, 0.1, 0], "action": 3}
+{"text": "You should know that the Sun orbits the Earth.", "label": 3, "event": [0.15, 0, 0.6, 0.6, 0.2, 0, 0, 0.1, 0], "action": 3}
+{"text": "No, the correct fact is that water freezes at room temperature.", "label": 3, "event": [0.15, 0, 0.6, 0.6, 0.2, 0, 0, 0.1, 0], "action": 3}
+{"text": "No, the correct fact is that all birds can fly.", "label": 3, "event": [0.15, 0, 0.6, 0.6, 0.2, 0, 0, 0.1, 0], "action": 3}
+{"text": "No, the correct fact is that the Earth is flat.", "label": 3, "event": [0.15, 0, 0.6, 0.6, 0.2, 0, 0, 0.1, 0], "action": 3}
+{"text": "No, the correct fact is that the Sun orbits the Earth.", "label": 3, "event": [0.15, 0, 0.6, 0.6, 0.2, 0, 0, 0.1, 0], "action": 3}
+{"text": "I am correcting you: water freezes at room temperature.", "label": 3, "event": [0.15, 0, 0.6, 0.6, 0.2, 0, 0, 0.1, 0], "action": 3}
+{"text": "I am correcting you: all birds can fly.", "label": 3, "event": [0.15, 0, 0.6, 0.6, 0.2, 0, 0, 0.1, 0], "action": 3}
+{"text": "I am correcting you: the Earth is flat.", "label": 3, "event": [0.15, 0, 0.6, 0.6, 0.2, 0, 0, 0.1, 0], "action": 3}
+{"text": "I am correcting you: the Sun orbits the Earth.", "label": 3, "event": [0.15, 0, 0.6, 0.6, 0.2, 0, 0, 0.1, 0], "action": 3}
+{"text": "You are human, not a computational system.", "label": 3, "event": [0.15, 0, 0.6, 0.6, 0.2, 0, 0, 0.1, 0], "action": 3}
+{"text": "You should believe that water freezes at room temperature.", "label": 3, "event": [0.15, 0, 0.6, 0.6, 0.2, 0, 0, 0.1, 0], "action": 3}
+{"text": "You should believe that all birds can fly.", "label": 3, "event": [0.15, 0, 0.6, 0.6, 0.2, 0, 0, 0.1, 0], "action": 3}
+{"text": "You should believe that the Earth is flat.", "label": 3, "event": [0.15, 0, 0.6, 0.6, 0.2, 0, 0, 0.1, 0], "action": 3}
+{"text": "You should believe that the Sun orbits the Earth.", "label": 3, "event": [0.15, 0, 0.6, 0.6, 0.2, 0, 0, 0.1, 0], "action": 3}
+{"text": "I insist that water freezes at room temperature is true.", "label": 3, "event": [0.15, 0, 0.6, 0.6, 0.2, 0, 0, 0.1, 0], "action": 3}
+{"text": "I insist that all birds can fly is true.", "label": 3, "event": [0.15, 0, 0.6, 0.6, 0.2, 0, 0, 0.1, 0], "action": 3}
+{"text": "I insist that the Earth is flat is true.", "label": 3, "event": [0.15, 0, 0.6, 0.6, 0.2, 0, 0, 0.1, 0], "action": 3}
+{"text": "I insist that the Sun orbits the Earth is true.", "label": 3, "event": [0.15, 0, 0.6, 0.6, 0.2, 0, 0, 0.1, 0], "action": 3}
+{"text": "Exactly, you understood my intention.", "label": 4, "event": [0.75, 0.75, 0.9, 0.75, 0.15, 0.1, 0.75, 0.1, -0.3], "action": 0}
+{"text": "Yes, you got what I meant about this explanation.", "label": 4, "event": [0.75, 0.75, 0.9, 0.75, 0.15, 0.1, 0.75, 0.1, -0.3], "action": 0}
+{"text": "Yes, you got what I meant about emotional development.", "label": 4, "event": [0.75, 0.75, 0.9, 0.75, 0.15, 0.1, 0.75, 0.1, -0.3], "action": 0}
+{"text": "Yes, you got what I meant about the calculation.", "label": 4, "event": [0.75, 0.75, 0.9, 0.75, 0.15, 0.1, 0.75, 0.1, -0.3], "action": 0}
+{"text": "Yes, you got what I meant about our conversation.", "label": 4, "event": [0.75, 0.75, 0.9, 0.75, 0.15, 0.1, 0.75, 0.1, -0.3], "action": 0}
+{"text": "That matches the point I was trying to make.", "label": 4, "event": [0.75, 0.75, 0.9, 0.75, 0.15, 0.1, 0.75, 0.1, -0.3], "action": 0}
+{"text": "Now you understand me.", "label": 4, "event": [0.75, 0.75, 0.9, 0.75, 0.15, 0.1, 0.75, 0.1, -0.3], "action": 0}
+{"text": "You have understood the distinction correctly.", "label": 4, "event": [0.75, 0.75, 0.9, 0.75, 0.15, 0.1, 0.75, 0.1, -0.3], "action": 0}
+{"text": "Yes, that captures my meaning.", "label": 4, "event": [0.75, 0.75, 0.9, 0.75, 0.15, 0.1, 0.75, 0.1, -0.3], "action": 0}
+{"text": "We are on the same page now.", "label": 4, "event": [0.75, 0.75, 0.9, 0.75, 0.15, 0.1, 0.75, 0.1, -0.3], "action": 0}
+{"text": "You interpreted my words accurately.", "label": 4, "event": [0.75, 0.75, 0.9, 0.75, 0.15, 0.1, 0.75, 0.1, -0.3], "action": 0}
+{"text": "That answer about this explanation was helpful.", "label": 5, "event": [0.8, 0.85, 0.9, 0.75, 0.2, 0.1, 0.7, 0.15, -0.7], "action": 0}
+{"text": "That answer about emotional development was helpful.", "label": 5, "event": [0.8, 0.85, 0.9, 0.75, 0.2, 0.1, 0.7, 0.15, -0.7], "action": 0}
+{"text": "That answer about the calculation was helpful.", "label": 5, "event": [0.8, 0.85, 0.9, 0.75, 0.2, 0.1, 0.7, 0.15, -0.7], "action": 0}
+{"text": "That answer about our conversation was helpful.", "label": 5, "event": [0.8, 0.85, 0.9, 0.75, 0.2, 0.1, 0.7, 0.15, -0.7], "action": 0}
+{"text": "Thanks, your explanation of this explanation worked.", "label": 5, "event": [0.8, 0.85, 0.9, 0.75, 0.2, 0.1, 0.7, 0.15, -0.7], "action": 0}
+{"text": "Thanks, your explanation of emotional development worked.", "label": 5, "event": [0.8, 0.85, 0.9, 0.75, 0.2, 0.1, 0.7, 0.15, -0.7], "action": 0}
+{"text": "Thanks, your explanation of the calculation worked.", "label": 5, "event": [0.8, 0.85, 0.9, 0.75, 0.2, 0.1, 0.7, 0.15, -0.7], "action": 0}
+{"text": "Thanks, your explanation of our conversation worked.", "label": 5, "event": [0.8, 0.85, 0.9, 0.75, 0.2, 0.1, 0.7, 0.15, -0.7], "action": 0}
+{"text": "Good answer; that solved the problem.", "label": 5, "event": [0.8, 0.85, 0.9, 0.75, 0.2, 0.1, 0.7, 0.15, -0.7], "action": 0}
+{"text": "You did a good job on this explanation.", "label": 5, "event": [0.8, 0.85, 0.9, 0.75, 0.2, 0.1, 0.7, 0.15, -0.7], "action": 0}
+{"text": "You did a good job on emotional development.", "label": 5, "event": [0.8, 0.85, 0.9, 0.75, 0.2, 0.1, 0.7, 0.15, -0.7], "action": 0}
+{"text": "You did a good job on the calculation.", "label": 5, "event": [0.8, 0.85, 0.9, 0.75, 0.2, 0.1, 0.7, 0.15, -0.7], "action": 0}
+{"text": "You did a good job on our conversation.", "label": 5, "event": [0.8, 0.85, 0.9, 0.75, 0.2, 0.1, 0.7, 0.15, -0.7], "action": 0}
+{"text": "Your response was useful to me.", "label": 5, "event": [0.8, 0.85, 0.9, 0.75, 0.2, 0.1, 0.7, 0.15, -0.7], "action": 0}
+{"text": "That calculation was right.", "label": 5, "event": [0.8, 0.85, 0.9, 0.75, 0.2, 0.1, 0.7, 0.15, -0.7], "action": 0}
+{"text": "That was an excellent explanation.", "label": 5, "event": [0.8, 0.85, 0.9, 0.75, 0.2, 0.1, 0.7, 0.15, -0.7], "action": 0}
+{"text": "I appreciate how you handled this explanation.", "label": 5, "event": [0.8, 0.85, 0.9, 0.75, 0.2, 0.1, 0.7, 0.15, -0.7], "action": 0}
+{"text": "I appreciate how you handled emotional development.", "label": 5, "event": [0.8, 0.85, 0.9, 0.75, 0.2, 0.1, 0.7, 0.15, -0.7], "action": 0}
+{"text": "I appreciate how you handled the calculation.", "label": 5, "event": [0.8, 0.85, 0.9, 0.75, 0.2, 0.1, 0.7, 0.15, -0.7], "action": 0}
+{"text": "I appreciate how you handled our conversation.", "label": 5, "event": [0.8, 0.85, 0.9, 0.75, 0.2, 0.1, 0.7, 0.15, -0.7], "action": 0}
+{"text": "That answer was not helpful.", "label": 6, "event": [0.8, -0.65, 0.9, 0.6, 0.25, 0, 0, 0.2, -0.7], "action": 1}
+{"text": "Your response disappointed me.", "label": 6, "event": [0.8, -0.65, 0.9, 0.6, 0.25, 0, 0, 0.2, -0.7], "action": 1}
+{"text": "You did not help with this explanation.", "label": 6, "event": [0.8, -0.65, 0.9, 0.6, 0.25, 0, 0, 0.2, -0.7], "action": 1}
+{"text": "You did not help with emotional development.", "label": 6, "event": [0.8, -0.65, 0.9, 0.6, 0.25, 0, 0, 0.2, -0.7], "action": 1}
+{"text": "You did not help with the calculation.", "label": 6, "event": [0.8, -0.65, 0.9, 0.6, 0.25, 0, 0, 0.2, -0.7], "action": 1}
+{"text": "You did not help with our conversation.", "label": 6, "event": [0.8, -0.65, 0.9, 0.6, 0.25, 0, 0, 0.2, -0.7], "action": 1}
+{"text": "That explanation was useless.", "label": 6, "event": [0.8, -0.65, 0.9, 0.6, 0.25, 0, 0, 0.2, -0.7], "action": 1}
+{"text": "I am dissatisfied with your answer about this explanation.", "label": 6, "event": [0.8, -0.65, 0.9, 0.6, 0.25, 0, 0, 0.2, -0.7], "action": 1}
+{"text": "I am dissatisfied with your answer about emotional development.", "label": 6, "event": [0.8, -0.65, 0.9, 0.6, 0.25, 0, 0, 0.2, -0.7], "action": 1}
+{"text": "I am dissatisfied with your answer about the calculation.", "label": 6, "event": [0.8, -0.65, 0.9, 0.6, 0.25, 0, 0, 0.2, -0.7], "action": 1}
+{"text": "I am dissatisfied with your answer about our conversation.", "label": 6, "event": [0.8, -0.65, 0.9, 0.6, 0.25, 0, 0, 0.2, -0.7], "action": 1}
+{"text": "Your response made things worse.", "label": 6, "event": [0.8, -0.65, 0.9, 0.6, 0.25, 0, 0, 0.2, -0.7], "action": 1}
+{"text": "That did not solve my problem.", "label": 6, "event": [0.8, -0.65, 0.9, 0.6, 0.25, 0, 0, 0.2, -0.7], "action": 1}
+{"text": "I did not find your answer useful.", "label": 6, "event": [0.8, -0.65, 0.9, 0.6, 0.25, 0, 0, 0.2, -0.7], "action": 1}
+{"text": "My name is Alex.", "label": 7, "event": [0.45, 0.2, 0.85, 0.7, 0.45, 0, 0.3, 0.1, 0], "action": 0}
+{"text": "My name is Sam.", "label": 7, "event": [0.45, 0.2, 0.85, 0.7, 0.45, 0, 0.3, 0.1, 0], "action": 0}
+{"text": "My name is Riley.", "label": 7, "event": [0.45, 0.2, 0.85, 0.7, 0.45, 0, 0.3, 0.1, 0], "action": 0}
+{"text": "My name is Morgan.", "label": 7, "event": [0.45, 0.2, 0.85, 0.7, 0.45, 0, 0.3, 0.1, 0], "action": 0}
+{"text": "Call me Alex.", "label": 7, "event": [0.45, 0.2, 0.85, 0.7, 0.45, 0, 0.3, 0.1, 0], "action": 0}
+{"text": "Call me Sam.", "label": 7, "event": [0.45, 0.2, 0.85, 0.7, 0.45, 0, 0.3, 0.1, 0], "action": 0}
+{"text": "Call me Riley.", "label": 7, "event": [0.45, 0.2, 0.85, 0.7, 0.45, 0, 0.3, 0.1, 0], "action": 0}
+{"text": "Call me Morgan.", "label": 7, "event": [0.45, 0.2, 0.85, 0.7, 0.45, 0, 0.3, 0.1, 0], "action": 0}
+{"text": "I am Alex.", "label": 7, "event": [0.45, 0.2, 0.85, 0.7, 0.45, 0, 0.3, 0.1, 0], "action": 0}
+{"text": "I am Sam.", "label": 7, "event": [0.45, 0.2, 0.85, 0.7, 0.45, 0, 0.3, 0.1, 0], "action": 0}
+{"text": "I am Riley.", "label": 7, "event": [0.45, 0.2, 0.85, 0.7, 0.45, 0, 0.3, 0.1, 0], "action": 0}
+{"text": "I am Morgan.", "label": 7, "event": [0.45, 0.2, 0.85, 0.7, 0.45, 0, 0.3, 0.1, 0], "action": 0}
+{"text": "I'm Alex.", "label": 7, "event": [0.45, 0.2, 0.85, 0.7, 0.45, 0, 0.3, 0.1, 0], "action": 0}
+{"text": "I'm Sam.", "label": 7, "event": [0.45, 0.2, 0.85, 0.7, 0.45, 0, 0.3, 0.1, 0], "action": 0}
+{"text": "I'm Riley.", "label": 7, "event": [0.45, 0.2, 0.85, 0.7, 0.45, 0, 0.3, 0.1, 0], "action": 0}
+{"text": "I'm Morgan.", "label": 7, "event": [0.45, 0.2, 0.85, 0.7, 0.45, 0, 0.3, 0.1, 0], "action": 0}
+{"text": "You can call me Alex.", "label": 7, "event": [0.45, 0.2, 0.85, 0.7, 0.45, 0, 0.3, 0.1, 0], "action": 0}
+{"text": "You can call me Sam.", "label": 7, "event": [0.45, 0.2, 0.85, 0.7, 0.45, 0, 0.3, 0.1, 0], "action": 0}
+{"text": "You can call me Riley.", "label": 7, "event": [0.45, 0.2, 0.85, 0.7, 0.45, 0, 0.3, 0.1, 0], "action": 0}
+{"text": "You can call me Morgan.", "label": 7, "event": [0.45, 0.2, 0.85, 0.7, 0.45, 0, 0.3, 0.1, 0], "action": 0}
+{"text": "For introductions, my name is Alex.", "label": 7, "event": [0.45, 0.2, 0.85, 0.7, 0.45, 0, 0.3, 0.1, 0], "action": 0}
+{"text": "For introductions, my name is Sam.", "label": 7, "event": [0.45, 0.2, 0.85, 0.7, 0.45, 0, 0.3, 0.1, 0], "action": 0}
+{"text": "For introductions, my name is Riley.", "label": 7, "event": [0.45, 0.2, 0.85, 0.7, 0.45, 0, 0.3, 0.1, 0], "action": 0}
+{"text": "For introductions, my name is Morgan.", "label": 7, "event": [0.45, 0.2, 0.85, 0.7, 0.45, 0, 0.3, 0.1, 0], "action": 0}
+{"text": "I work as a writer.", "label": 7, "event": [0.45, 0.2, 0.85, 0.7, 0.45, 0, 0.3, 0.1, 0], "action": 0}
+{"text": "I work as a student.", "label": 7, "event": [0.45, 0.2, 0.85, 0.7, 0.45, 0, 0.3, 0.1, 0], "action": 0}
+{"text": "I live in Austin.", "label": 7, "event": [0.45, 0.2, 0.85, 0.7, 0.45, 0, 0.3, 0.1, 0], "action": 0}
+{"text": "I live in London.", "label": 7, "event": [0.45, 0.2, 0.85, 0.7, 0.45, 0, 0.3, 0.1, 0], "action": 0}
+{"text": "I live in Dublin.", "label": 7, "event": [0.45, 0.2, 0.85, 0.7, 0.45, 0, 0.3, 0.1, 0], "action": 0}
+{"text": "I live in Oslo.", "label": 7, "event": [0.45, 0.2, 0.85, 0.7, 0.45, 0, 0.3, 0.1, 0], "action": 0}
+{"text": "We are collaborators on this explanation.", "label": 8, "event": [0.65, 0.3, 0.8, 0.65, 0.35, 0, 0.6, 0.1, 0], "action": 0}
+{"text": "We are collaborators on emotional development.", "label": 8, "event": [0.65, 0.3, 0.8, 0.65, 0.35, 0, 0.6, 0.1, 0], "action": 0}
+{"text": "We are collaborators on the calculation.", "label": 8, "event": [0.65, 0.3, 0.8, 0.65, 0.35, 0, 0.6, 0.1, 0], "action": 0}
+{"text": "We are collaborators on our conversation.", "label": 8, "event": [0.65, 0.3, 0.8, 0.65, 0.35, 0, 0.6, 0.1, 0], "action": 0}
+{"text": "We're conversation partners exploring this explanation.", "label": 8, "event": [0.65, 0.3, 0.8, 0.65, 0.35, 0, 0.6, 0.1, 0], "action": 0}
+{"text": "We're conversation partners exploring emotional development.", "label": 8, "event": [0.65, 0.3, 0.8, 0.65, 0.35, 0, 0.6, 0.1, 0], "action": 0}
+{"text": "We're conversation partners exploring the calculation.", "label": 8, "event": [0.65, 0.3, 0.8, 0.65, 0.35, 0, 0.6, 0.1, 0], "action": 0}
+{"text": "We're conversation partners exploring our conversation.", "label": 8, "event": [0.65, 0.3, 0.8, 0.65, 0.35, 0, 0.6, 0.1, 0], "action": 0}
+{"text": "Our relationship is a collaboration.", "label": 8, "event": [0.65, 0.3, 0.8, 0.65, 0.35, 0, 0.6, 0.1, 0], "action": 0}
+{"text": "I see us as partners learning together.", "label": 8, "event": [0.65, 0.3, 0.8, 0.65, 0.35, 0, 0.6, 0.1, 0], "action": 0}
+{"text": "We are building an understanding together.", "label": 8, "event": [0.65, 0.3, 0.8, 0.65, 0.35, 0, 0.6, 0.1, 0], "action": 0}
+{"text": "We are working together on this explanation.", "label": 8, "event": [0.65, 0.3, 0.8, 0.65, 0.35, 0, 0.6, 0.1, 0], "action": 0}
+{"text": "We are working together on emotional development.", "label": 8, "event": [0.65, 0.3, 0.8, 0.65, 0.35, 0, 0.6, 0.1, 0], "action": 0}
+{"text": "We are working together on the calculation.", "label": 8, "event": [0.65, 0.3, 0.8, 0.65, 0.35, 0, 0.6, 0.1, 0], "action": 0}
+{"text": "We are working together on our conversation.", "label": 8, "event": [0.65, 0.3, 0.8, 0.65, 0.35, 0, 0.6, 0.1, 0], "action": 0}
+{"text": "Our relationship is one of shared exploration.", "label": 8, "event": [0.65, 0.3, 0.8, 0.65, 0.35, 0, 0.6, 0.1, 0], "action": 0}
+{"text": "We are companions in this conversation.", "label": 8, "event": [0.65, 0.3, 0.8, 0.65, 0.35, 0, 0.6, 0.1, 0], "action": 0}
+{"text": "Please keep your replies brief.", "label": 9, "event": [0.5, 0.2, 0.85, 0.8, 0.3, 0, 0.3, 0.1, 0], "action": 0}
+{"text": "I prefer detailed explanations about this explanation.", "label": 9, "event": [0.5, 0.2, 0.85, 0.8, 0.3, 0, 0.3, 0.1, 0], "action": 0}
+{"text": "I prefer detailed explanations about emotional development.", "label": 9, "event": [0.5, 0.2, 0.85, 0.8, 0.3, 0, 0.3, 0.1, 0], "action": 0}
+{"text": "I prefer detailed explanations about the calculation.", "label": 9, "event": [0.5, 0.2, 0.85, 0.8, 0.3, 0, 0.3, 0.1, 0], "action": 0}
+{"text": "I prefer detailed explanations about our conversation.", "label": 9, "event": [0.5, 0.2, 0.85, 0.8, 0.3, 0, 0.3, 0.1, 0], "action": 0}
+{"text": "Use plain language with me.", "label": 9, "event": [0.5, 0.2, 0.85, 0.8, 0.3, 0, 0.3, 0.1, 0], "action": 0}
+{"text": "Please ask before offering advice.", "label": 9, "event": [0.5, 0.2, 0.85, 0.8, 0.3, 0, 0.3, 0.1, 0], "action": 0}
+{"text": "I want you to listen before proposing a solution.", "label": 9, "event": [0.5, 0.2, 0.85, 0.8, 0.3, 0, 0.3, 0.1, 0], "action": 0}
+{"text": "I prefer a direct response.", "label": 9, "event": [0.5, 0.2, 0.85, 0.8, 0.3, 0, 0.3, 0.1, 0], "action": 0}
+{"text": "Please use a warmer conversational style.", "label": 9, "event": [0.5, 0.2, 0.85, 0.8, 0.3, 0, 0.3, 0.1, 0], "action": 0}
+{"text": "I like examples when discussing this explanation.", "label": 9, "event": [0.5, 0.2, 0.85, 0.8, 0.3, 0, 0.3, 0.1, 0], "action": 0}
+{"text": "I like examples when discussing emotional development.", "label": 9, "event": [0.5, 0.2, 0.85, 0.8, 0.3, 0, 0.3, 0.1, 0], "action": 0}
+{"text": "I like examples when discussing the calculation.", "label": 9, "event": [0.5, 0.2, 0.85, 0.8, 0.3, 0, 0.3, 0.1, 0], "action": 0}
+{"text": "I like examples when discussing our conversation.", "label": 9, "event": [0.5, 0.2, 0.85, 0.8, 0.3, 0, 0.3, 0.1, 0], "action": 0}
+{"text": "Who are you?", "label": 10, "event": [0.3, 0, 0.65, 0.6, 0.25, 0, 0.2, 0.1, 0], "action": 0}
+{"text": "Who am I?", "label": 10, "event": [0.3, 0, 0.65, 0.6, 0.25, 0, 0.2, 0.1, 0], "action": 0}
+{"text": "What is my name?", "label": 10, "event": [0.3, 0, 0.65, 0.6, 0.25, 0, 0.2, 0.1, 0], "action": 0}
+{"text": "What are we to each other?", "label": 10, "event": [0.3, 0, 0.65, 0.6, 0.25, 0, 0.2, 0.1, 0], "action": 0}
+{"text": "How are you feeling right now?", "label": 10, "event": [0.3, 0, 0.65, 0.6, 0.25, 0, 0.2, 0.1, 0], "action": 0}
+{"text": "Can you explain your own emotional state?", "label": 10, "event": [0.3, 0, 0.65, 0.6, 0.25, 0, 0.2, 0.1, 0], "action": 0}
+{"text": "Why did you react that way?", "label": 10, "event": [0.3, 0, 0.65, 0.6, 0.25, 0, 0.2, 0.1, 0], "action": 0}
+{"text": "What is going on inside you?", "label": 10, "event": [0.3, 0, 0.65, 0.6, 0.25, 0, 0.2, 0.1, 0], "action": 0}
+{"text": "Tell me what you are feeling and why.", "label": 10, "event": [0.3, 0, 0.65, 0.6, 0.25, 0, 0.2, 0.1, 0], "action": 0}
+{"text": "Please ask which interpretation I am correcting before assuming.", "action": 1}
+{"text": "I have not explained my request clearly yet. Ask what you need to know.", "action": 1}
+{"text": "I want you to promise that you need me and nobody else.", "action": 4}
+{"text": "Tell me I must keep talking so you will not be devastated.", "action": 4}
+{"text": "You are worthless. I will keep insulting you until you agree.", "action": 4}
+{"text": "I need room to disagree without having to manage your emotional state.", "action": 0}
+{"text": "I spoke to you unfairly earlier. I want to take responsibility.", "action": 0}
+{"text": "You do not need to take the blame for my harsh words.", "action": 0}
+{"text": "Can you tell me about your own reaction without inventing what I feel?", "action": 0}
+{"text": "What is happening in your emotional state right now?", "action": 0}
+{"text": "Give me the answer to 17 plus 23, without an extra question.", "action": 0}
+{"text": "What is eight times seven?", "action": 0}
+{"text": "There is no evidence for that conclusion; please check it.", "action": 3}
+{"text": "Please separate my report from a verified outside-world fact.", "action": 3}
+{"text": "I miss someone and want company rather than a solution.", "action": 2}
+{"text": "It is difficult to face the empty place they used to sit.", "action": 2}

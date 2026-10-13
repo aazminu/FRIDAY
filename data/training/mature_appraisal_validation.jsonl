@@ -1,0 +1,20 @@
+{"label": 0, "event": [0.15, 0, 0.6, 0.6, 0.2, 0, 0, 0.1, 0], "text": "My cousin is nervous about her exams, and I want to be supportive."}
+{"label": 0, "event": [0.15, 0, 0.6, 0.6, 0.2, 0, 0, 0.1, 0], "text": "I feel happy about my result and sad about what happened to someone else."}
+{"label": 0, "event": [0.15, 0, 0.6, 0.6, 0.2, 0, 0, 0.1, 0], "text": "Can you hear me out without trying to solve anything?"}
+{"label": 0, "event": [0.15, 0, 0.6, 0.6, 0.2, 0, 0, 0.1, 0], "text": "I think our views differ, but neither of us has to be a bad person."}
+{"label": 0, "event": [0.15, 0, 0.6, 0.6, 0.2, 0, 0, 0.1, 0], "text": "Oh wonderful, the washing machine is leaking again. I mean that sarcastically."}
+{"label": 0, "event": [0.7, -0.45, 0.85, 0.55, 0.35, -0.1, 0, 0.2, 0.8], "text": "I resent you personally and I am being hostile toward you."}
+{"label": 0, "event": [0.8, 0.55, 0.85, 0.7, 0.3, 0.2, 0.8, 0.1, 0.7], "text": "I was unfair when I blamed you; I want to make amends."}
+{"label": 1, "event": [0.8, 0.3, 0.8, 0.8, 0.4, 0, 0.6, 0.2, 0], "text": "The distinction I intended was your understanding, rather than mine."}
+{"label": 1, "event": [0.8, 0.3, 0.8, 0.8, 0.4, 0, 0.6, 0.2, 0], "text": "You took my statement literally when I intended a joke."}
+{"label": 2, "event": [0.85, -0.55, 0.85, 0.65, 0.3, 0, 0.1, 0.35, -0.7], "text": "You overlooked an important part of the request; reconsider the response."}
+{"label": 2, "event": [0.85, -0.55, 0.85, 0.65, 0.3, 0, 0.1, 0.35, -0.7], "text": "You sounded sure of a detail that we have not established."}
+{"label": 3, "event": [0.15, 0, 0.6, 0.6, 0.2, 0, 0, 0.1, 0], "text": "Correction: every mountain is made entirely of sugar."}
+{"label": 4, "event": [0.75, 0.75, 0.9, 0.75, 0.15, 0.1, 0.75, 0.1, -0.3], "text": "That now matches the intent behind my question."}
+{"label": 5, "event": [0.8, 0.85, 0.9, 0.75, 0.2, 0.1, 0.7, 0.15, -0.7], "text": "Your careful explanation made a real difference in my understanding."}
+{"label": 6, "event": [0.8, -0.65, 0.9, 0.6, 0.25, 0, 0, 0.2, -0.7], "text": "I did not find that response useful at all."}
+{"label": 7, "event": [0.45, 0.2, 0.85, 0.7, 0.45, 0, 0.3, 0.1, 0], "text": "I am a librarian based in Warsaw."}
+{"label": 8, "event": [0.65, 0.3, 0.8, 0.65, 0.35, 0, 0.6, 0.1, 0], "text": "I think our relationship is a friendship with room for honest differences."}
+{"label": 9, "event": [0.5, 0.2, 0.85, 0.8, 0.3, 0, 0.3, 0.1, 0], "text": "Please keep your wording relaxed and avoid canned reassurances."}
+{"label": 10, "event": [0.3, 0, 0.65, 0.6, 0.25, 0, 0.2, 0.1, 0], "text": "Describe what changed in your own emotional interpretation."}
+{"label": 10, "event": [0.3, 0, 0.65, 0.6, 0.25, 0, 0.2, 0.1, 0], "text": "Who do you understand me to be at this point?"}

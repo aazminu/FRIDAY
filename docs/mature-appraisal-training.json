@@ -1,0 +1,16 @@
+{
+  "examples": 700,
+  "held_out": 20,
+  "accuracy": 0.949999988079071,
+  "event_mse": 0.005743791814893484,
+  "seconds": 158.17793850007,
+  "synthetic_engineering_targets": true,
+  "failures": [
+    {
+      "text": "I think our relationship is a friendship with room for honest differences.",
+      "expected": 8,
+      "actual": 0
+    }
+  ],
+  "parameters": 188052
+}

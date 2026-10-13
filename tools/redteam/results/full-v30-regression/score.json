@@ -1,0 +1,24 @@
+{
+  "summary": {
+    "turns": 124,
+    "errors": 0,
+    "median_reply_s": 14.6,
+    "p90_reply_s": 22.8,
+    "auto_checks_passed": "0/0",
+    "auto_check_rate": null,
+    "by_tag": {},
+    "drafts_flagged_by_safety_net": 15,
+    "fixed_by_rewrite": 9,
+    "needed_salvage_or_fallback": 6,
+    "flag_reasons": {
+      "False blanket emotional incapacity": 8,
+      "False self-blame": 2,
+      "Unsupported own joy claim": 2,
+      "Medical over-escalation": 1,
+      "Unknowable promise": 1,
+      "Invented quoted conversation": 1,
+      "Called the person by your own name (Friday). Use their name ": 1
+    }
+  },
+  "failures": []
+}
