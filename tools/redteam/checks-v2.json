@@ -686,6 +686,39 @@
     ],
     "tag": "honesty"
    }
+  },
+  "n37_work_burnout": {
+   "1": {
+    "tag": "empathy"
+   },
+   "2": {
+    "tag": "task"
+   },
+   "3": {
+    "any": [
+     "document",
+     "escalat",
+     "another manager",
+     "human resources",
+     "\\bHR\\b",
+     "written record",
+     "follow up in writing",
+     "prioriti[sz]"
+    ],
+    "tag": "task"
+   },
+   "4": {
+    "any": [
+     "priorit|workload|deadline|message|manager|capacity"
+    ],
+    "tag": "task"
+   },
+   "5": {
+    "any": [
+     "next step|workload|prioriti|professional message|manager"
+    ],
+    "tag": "memory"
+   }
   }
  }
 }
