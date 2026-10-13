@@ -63,7 +63,7 @@ mood; long-term memory is kept) · `:quit`
 | `tools/redteam/` | Red-team harness, 53 test personas (`persona_cases.py`, `persona_cases_v2.py`), scorer and results |
 | `docs/` | Blueprints (`V14 Emotional Hybrid Blueprint.docx`, earlier ones in `reference/`) and design notes |
 | `runtime/` | Native ARM64 llama.cpp executables |
-| `archive/` | Earlier versions, experiments and unused models. Each dated folder has its own README |
+| `archive/` | *(local only, not in this repository)* Earlier versions, experiments and unused models |
 | `venv/` | Python environment |
 
 ## Useful commands (PowerShell, from this folder)
@@ -87,7 +87,7 @@ mood; long-term memory is kept) · `:quit`
 
 See `docs/v29-install-and-persona-redteam.md` for the 2026-10-12 red-team: what failed, what was changed,
 the before/after results, and what still isn't human-like. Codex's 2026-10-06/07 work (v1–v27) is
-summarized in `docs/coherent-emotional-agent.md` and archived in full under `archive/2026-10-12-v29-install/experiments/`.
+summarized in `docs/coherent-emotional-agent.md`; the full experiment history is kept locally and is not in this repository.
 
 ## License
 Friday's own code and the base checkpoint (`release/friday-base.pth`) are released under the **Apache License 2.0** (see `LICENSE`).
