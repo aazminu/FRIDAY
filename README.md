@@ -4,6 +4,10 @@
 > and not a crisis or mental-health service.** It makes mistakes: in its latest red-team, 9% of replies to new people were real
 > failures (see `docs/v30-full-redteam.md`). If you are in crisis, contact local emergency services or, in the US, call or text **988**.
 
+![Friday starting up and holding a short conversation](docs/demo.gif)
+
+*A real session on a Snapdragon X laptop, fully offline. The text is unedited, only the timing is sped up. It was chosen as the best of several takes; Friday still makes mistakes. Here it invents "I've been saying you're capable". See the red-team results in `docs/v30-full-redteam.md`.*
+
 ## Setup (fresh copy from GitHub)
 Tested on Windows 11 (ARM64 Snapdragon X, 16 GB RAM), CPU only, Python 3.11.
 ```powershell
