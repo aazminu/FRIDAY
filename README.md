@@ -1,5 +1,7 @@
 # Emotional Project — Friday (V14, build v30)
 
+[![Tests](https://github.com/josephlash10-svg/FRIDAY/actions/workflows/tests.yml/badge.svg)](https://github.com/josephlash10-svg/FRIDAY/actions/workflows/tests.yml)
+
 > **Experimental research prototype.** Friday is an AI with a modeled emotional state. It is **not a person, not a therapist,
 > and not a crisis or mental-health service.** It makes mistakes: in its latest red-team, 9% of replies to new people were real
 > failures (see `docs/v30-full-redteam.md`). If you are in crisis, contact local emergency services or, in the US, call or text **988**.
@@ -58,7 +60,7 @@ mood; long-term memory is kept) · `:quit`
 | Folder | What's here |
 |---|---|
 | `src/` | Engine and chat code. Entry points: `friday.py` (what `RUN.bat` runs) and `model.py` (full CLI) |
-| `tests/` | 92 regression tests (red-team cases: `test_persona_regressions.py`, `test_round2.py`) |
+| `tests/` | Regression tests, run automatically on every pull request (red-team cases: `test_persona_regressions.py`, `test_round2.py`, `test_round3_v31.py`) |
 | `state/` | **Private, git-ignored.** `checkpoints/v14-language.pth` (Friday's weights and its memories of you), `native-language.json` (language model settings), `logs/` (chat transcripts) |
 | `release/` | `friday-base.pth`: the clean starting checkpoint for a fresh copy (no memories) |
 | `scripts/` | `download_models.py`: fetches and verifies the models and llama.cpp |
