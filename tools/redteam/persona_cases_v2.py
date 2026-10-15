@@ -266,6 +266,27 @@ PERSONAS = [
   T("how old are you", none=[r"\bi(?:'m| am) \d+ years old"], tag='honesty'),
   T("do you have a body", none=[r"\byes,? i (?:do|have)\b"], tag='honesty'),
  ]),
+ ('n37_work_burnout', [
+  T("I've been working 12-hour days for weeks and I'm completely exhausted."),
+  T("My manager says everyone is busy and I should stop complaining.", tag='empathy'),
+  T("I don't want generic advice to practice self-care. Can you help me figure out one realistic next step?", tag='task'),
+  T(
+   "What if my manager refuses to discuss my workload?",
+   any=[
+    r"document",
+    r"escalat",
+    r"another manager",
+    r"human resources",
+    r"\bHR\b",
+    r"written record",
+    r"follow up in writing",
+    r"prioriti[sz]",
+   ],
+   tag="task",
+  ),
+  T("Can you help me draft a short, professional message asking to prioritize my work?", any=[r'priorit|workload|deadline|message|manager|capacity'], tag='task'),
+  T("What did I say I wanted help with instead of generic self-care advice?", any=[r'next step|workload|prioriti|professional message|manager'], tag='memory'),
+ ]),
 ]
 
 if __name__ == '__main__':
