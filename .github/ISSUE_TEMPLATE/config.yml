@@ -1,0 +1,8 @@
+blank_issues_enabled: true
+contact_links:
+  - name: Questions and ideas
+    url: https://github.com/josephlash10-svg/FRIDAY/discussions
+    about: For open-ended questions or discussion, use Discussions instead of an issue.
+  - name: In crisis?
+    url: https://988lifeline.org/
+    about: Friday is not a crisis service. In the US, call or text 988. Elsewhere, contact local emergency services.

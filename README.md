@@ -93,6 +93,13 @@ See `docs/v29-install-and-persona-redteam.md` for the 2026-10-12 red-team: what 
 the before/after results, and what still isn't human-like. Codex's 2026-10-06/07 work (v1–v27) is
 summarized in `docs/coherent-emotional-agent.md`; the full experiment history is kept locally and is not in this repository.
 
+## Contributing
+
+Contributions are welcome. The easiest and most useful place to start is adding a short conversation that
+makes Friday fail — see [`CONTRIBUTING.md`](CONTRIBUTING.md) and the
+[`good first issue`](https://github.com/josephlash10-svg/FRIDAY/issues?q=is%3Aopen+label%3A%22good+first+issue%22) label.
+Please also read the [Code of Conduct](CODE_OF_CONDUCT.md).
+
 ## License
 Friday's own code and the base checkpoint (`release/friday-base.pth`) are released under the **Apache License 2.0** (see `LICENSE`).
 The models and llama.cpp runtime that `scripts/download_models.py` fetches keep their own licenses (see `THIRD_PARTY_NOTICES.md`).
