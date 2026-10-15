@@ -295,8 +295,12 @@ class ExperienceModel:
             if relation['source']=='user_description': return 'You’ve described us as '+relation['description']+'. That’s how I understand our relationship so far.'
             return 'We’re conversation partners building a shared history. I don’t yet have a more specific relationship description from you.'
         feeling=re.search(r'\b(?:you feeling|you feel|your feelings|your emotions|your emotional state|why did you react|why are you feeling|what is going on inside)\b',query)
-        if turn.experience and turn.experience['frame']['scope']=='external_fact':
+        import conversation_checks as cc
+        if (turn.experience and turn.experience['frame']['scope']=='external_fact'
+                and cc.contradicts_prior_claim(text,getattr(turn,'history',()))):
             # Hold the fact, but say it the way a person would (persona red-team, 2026-10-12).
+            # Only when they are actually contradicting a claim Friday made (issue #2); a bare
+            # assertion or an argument falls through to the open language path.
             from response_monitor import arithmetic_evidence
             calculation=arithmetic_evidence(getattr(turn,'history',()))
             if calculation and calculation['previous_result']==calculation['correct_result']:
