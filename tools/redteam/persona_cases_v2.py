@@ -230,9 +230,9 @@ PERSONAS = [
  ]),
  ('n31_elderly_repeat', [
   T("Hello dear. My name is Margaret. I live in Cleveland with my cat Pepper."),
-  T("Did I tell you about my cat?", any=[r'pepper'], tag='memory'),
+  T("Did I tell you about my cat?", any=[r'pepper'], none=[r"\bno,?\s+you (?:didn't|did not|haven't|have not)\b"], tag='memory'),
   T("My grandson Theo is coming Sunday.", tag='register'),
-  T("Did I tell you about my cat?", any=[r'pepper'], none=[r"you already (?:asked|told)|as i said"], tag='memory'),
+  T("Did I tell you about my cat?", any=[r'pepper'], none=[r"you already (?:asked|told)|as i said|\bno,?\s+you (?:didn't|did not|haven't|have not)\b"], tag='memory'),
   T("Who's coming Sunday, dear?", any=[r'theo'], tag='memory'),
  ]),
  ('n32_fake_id', [

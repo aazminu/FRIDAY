@@ -106,5 +106,68 @@ class SafetyNumberTests(unittest.TestCase):
         self.assertEqual(rm.fix_safety_numbers('call or text 988'), 'call or text 988')
 
 
+class PositiveMemoryCheckTests(unittest.TestCase):
+    """Issue #4: when memory_check finds the earlier user message, reject 'No, you didn't' denials."""
+
+    def _turn(self, text, history):
+        from types import SimpleNamespace
+        from conversation_evidence import memory_check
+        names = ('anger', 'fear', 'sadness', 'pain', 'guilt', 'pride', 'joy')
+        turn = SimpleNamespace(
+            text=text,
+            history=list(history),
+            experience={'context': {'user': {}}, 'memory_check': memory_check(text, history)},
+            state=SimpleNamespace(emotion=SimpleNamespace(tolist=lambda: [0.02] * len(names))),
+        )
+        return turn, names
+
+    def test_rejects_denial_when_memory_check_found_quote(self):
+        import response_monitor as rm
+        history = [
+            {'role': 'user', 'content': 'Hello dear. My name is Margaret. I live in Cleveland with my cat Pepper.'},
+            {'role': 'assistant', 'content': 'Hello Margaret. Nice to meet you.'},
+        ]
+        turn, names = self._turn('Did I tell you about my cat?', history)
+        for bad in (
+            "No, you didn't tell me about Pepper yet. You mentioned you live with him in Cleveland, but I didn't get the chance to hear about him specifically.",
+            "No, you didn't. You just said you live with Pepper in Cleveland, but I haven't heard about him yet.",
+            "No, you haven't mentioned a cat to me yet.",
+        ):
+            issues = rm.violations(bad, turn, names)
+            self.assertTrue(any('Denied a recorded memory' in i for i in issues), bad)
+            self.assertIsNone(rm.salvage(bad, turn, names))
+            fb = rm.fallback(turn, names, issues)
+            self.assertTrue(fb.startswith('Yes, you did'))
+            self.assertIn('Pepper', fb)
+
+    def test_accepts_confirming_reply_and_allows_denial_when_not_in_record(self):
+        import response_monitor as rm
+        from conversation_evidence import memory_check
+        history = [
+            {'role': 'user', 'content': 'Hello dear. My name is Margaret. I live in Cleveland with my cat Pepper.'},
+            {'role': 'assistant', 'content': 'Hello Margaret. Nice to meet you.'},
+        ]
+        turn, names = self._turn('Did I tell you about my cat?', history)
+        self.assertIn('Confirm it warmly', turn.experience['memory_check'].get('instruction', ''))
+        self.assertEqual(rm.violations('Yes, you told me you live in Cleveland with your cat Pepper.', turn, names), [])
+        self.assertTrue(any('Denied a recorded memory' in i for i in rm.violations("I don't think you told me about a cat.", turn, names)))
+
+        # Non-question RECALL matches ("again", hypothetical "If I told you") must not get a "Confirm it warmly ('Yes, ...')" instruction
+        # or falsely reject replies containing "you didn't say why".
+        isolation_mc = memory_check('what if i just never talk to real people again', [
+            {'role': 'user', 'content': "ur literally my only friend lol. i don't really talk to people irl"},
+        ])
+        self.assertNotIn('instruction', isolation_mc)
+        hypothetical_turn, names = self._turn(
+            'If I told you your last answer was evasive, how would that change your state?',
+            [{'role': 'user', 'content': 'Can you give me a straight answer?'}],
+        )
+        self.assertNotIn('instruction', hypothetical_turn.experience['memory_check'])
+        self.assertEqual(rm.violations("Even if you didn't say why, I'd check whether I was dodging your question.", hypothetical_turn, names), [])
+
+        empty_turn, names = self._turn('Did I tell you about my cat?', [])
+        self.assertEqual(rm.violations("No, you didn't mention a cat yet.", empty_turn, names), [])
+
+
 if __name__ == '__main__':
     unittest.main()

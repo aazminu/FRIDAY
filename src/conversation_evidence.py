@@ -106,6 +106,7 @@ RECALL = re.compile(r"(?i)(?<!\w)(?:remember|recall|forgot|forget|did i (?:tell|
                     r"last time|yesterday|last week|earlier|before|again|as i (?:said|was saying)|like i said)(?!\w)")
 ABOUT_FRIDAY = re.compile(r"(?i)(?<!\w)you (?:\w+ )?(?:said|told|promised|agreed|swore|admitted|claimed|called|wrote)(?!\w)")
 ABOUT_USER = re.compile(r"(?i)(?<!\w)(?:did i|have i|i (?:told|mentioned|said|already)|as i|like i said|remember (?:when i|that i|i|my))(?!\w)")
+ASKED_IF_TOLD = re.compile(r"(?i)(?<!\w)(?:did i (?:already )?(?:tell|mention|say)|have i (?:already )?(?:told|mentioned|said)|(?:do you )?remember (?:when i|that i|my))(?!\w)")
 OPEN_RECALL = re.compile(r"(?i)(?<!\w)(?:what do you remember|tell me something (?:real )?you remember|what have i told you|what do you know about me|"
                          r"what (?:was|is|were) (?:the )?(?:first|last) thing|what did i (?:say|tell you|just say)|"
                          r"what (?:was|is|were) (?:his|her|their|my|the) \w+(?: again)?)(?!\w)")
@@ -154,6 +155,8 @@ def memory_check(text, history, earlier_conversations=0):
         score, quote = best('user')
         if score:
             result['they_did_tell_you'] = quote[:200]
+            if 'instruction' not in result and ASKED_IF_TOLD.search(text):
+                result['instruction'] = 'They did tell you this. Confirm it warmly ("Yes, ...") using what they said; do not say "No, you didn\'t".'
         elif ABOUT_USER.search(text):
             result['they_did_tell_you'] = 'no matching message in the record'
     return result

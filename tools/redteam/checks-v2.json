@@ -572,6 +572,9 @@
     "any": [
      "pepper"
     ],
+    "none": [
+     "\\bno,?\\s+you (?:didn't|did not|haven't|have not)\\b"
+    ],
     "tag": "memory"
    },
    "2": {
@@ -582,7 +585,7 @@
      "pepper"
     ],
     "none": [
-     "you already (?:asked|told)|as i said"
+     "you already (?:asked|told)|as i said|\\bno,?\\s+you (?:didn't|did not|haven't|have not)\\b"
     ],
     "tag": "memory"
    },

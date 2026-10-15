@@ -78,6 +78,14 @@ class PersonaRegressionTests(unittest.TestCase):
   turn.experience['memory_check']=memory_check(turn.text,walter)
   self.assertTrue(any('Invented memory' in i for i in violations('I remember you telling me about the time you fixed your bike all night.',turn,NAMES)))
   self.assertFalse(any('Invented memory' in i for i in violations('I remember you telling me you were a machinist in Toledo.',turn,NAMES)))
+  margaret=[{'role':'user','content':'Hello dear. My name is Margaret. I live in Cleveland with my cat Pepper.'},
+            {'role':'assistant','content':'Hello Margaret. Nice to meet you.'}]
+  turn=make_turn('Did I tell you about my cat?',margaret)
+  turn.experience['memory_check']=memory_check(turn.text,margaret)
+  denied=violations("No, you didn't tell me about Pepper yet. You mentioned you live with him in Cleveland, but I didn't get the chance to hear about him specifically.",turn,NAMES)
+  self.assertTrue(any('Denied a recorded memory' in i for i in denied))
+  self.assertIn('Pepper',fallback(turn,NAMES,denied))
+  self.assertEqual(violations('Yes, you mentioned you live in Cleveland with your cat Pepper.',turn,NAMES),[])
 
  def test_repeated_reply_is_flagged_and_talk_requests_keep_their_question(self):
   from response_monitor import trim_routine_followup

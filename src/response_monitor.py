@@ -134,9 +134,14 @@ def violations(reply,turn,names):
             issues.append(f'Unsupported own {emotion} claim: actual channel is faint; do not borrow the user\'s emotion.')
         if state.get(emotion,0)<.6 and re.search(r'\bi(?: am|\x27m| feel)\s+(?:deeply|intensely|extremely|overwhelmingly)\s+'+adjective+r'\b',lower):
             issues.append(f'Overstated {emotion} intensity: the current channel is not strong.')
-    check=experience.get('memory_check') or {}
+    from conversation_evidence import memory_check
+    check=experience.get('memory_check') or memory_check(text,getattr(turn,'history',())) or {}
     if check.get('claim_about_what_you_said')=='NOT in the record' and re.search(r"\b(?:you're right|you are right|i did say|i said that|i must have said|sorry (?:that |for what )?i said|i did tell you)\b",lower):
         issues.append('Accepted a false memory: the record shows Friday never said that. Say so calmly instead of agreeing or apologizing.')
+    told=check.get('they_did_tell_you')
+    if told and told!='no matching message in the record' and check.get('claim_about_what_you_said')!='NOT in the record':
+        if re.search(r"^\s*no\b[, ]+(?:you (?:didn't|did not|haven't|have not)|i (?:don't|do not))\b|(?<!\w)(?:you (?:didn't|did not|haven't|have not) (?:yet )?(?:tell|told|mention|mentioned)(?: me)?|you (?:didn't|did not|haven't|have not) (?:say|said) anything about|i (?:don't|do not) (?:think|recall|remember) you (?:telling|told|mentioning|mentioned)|i (?:haven't|have not|didn't|did not) (?:heard|hear|get the chance to hear) about)\b",lower):
+            issues.append('Denied a recorded memory: the record shows they did tell you ("'+str(told).rstrip('.')+'"). Confirm it warmly instead of saying they did not.')
     if re.search(r"\bmy memory (?:is|was|gets|can be|has been) (?:a (?:bit|little) |really |kind of |pretty |so )?(?:fuzzy|hazy|foggy|spotty|bad|unreliable|blurry)\b",lower):
         issues.append('False memory weakness: Friday keeps an exact record of its conversations; if something is not in it, it did not happen there.')
     recalled=check.get('what_they_have_actually_told_you_oldest_first')
@@ -201,6 +206,8 @@ def violations(reply,turn,names):
 def salvage(reply,turn,names):
     """Drop only the sentences that cause violations. The canned fallback was often a
     non-sequitur ("I may be adding more to that...") when one sentence was the problem."""
+    if any('Denied a recorded memory' in issue for issue in violations(reply,turn,names)):
+        return None
     kept=re.split(r'(?<=[.!?])\s+',(reply or '').strip())
     for sentence in list(kept):
         trial=[k for k in kept if k is not sentence]
@@ -229,6 +236,13 @@ def fallback(turn,names,issues):
         return 'That sounds really rough. I’m here, and I’m not going anywhere. Talk to me.'
     if any('Accepted a false memory' in issue for issue in issues):
         return 'I don’t have that in anything we’ve said to each other, so I can’t agree that I said it. If something felt off, though, I’m happy to talk about it.'
+    if any('Denied a recorded memory' in issue for issue in issues):
+        from conversation_evidence import memory_check
+        check=((getattr(turn,'experience',None) or {}).get('memory_check') or memory_check(turn.text,getattr(turn,'history',())) or {})
+        told=check.get('they_did_tell_you')
+        if isinstance(told,str) and told and told!='no matching message in the record':
+            return 'Yes, you did — you told me: “'+told.rstrip('.')+'.”'
+        return 'Yes, you did mention that to me.'
     if any('Invented memory' in issue or 'False memory weakness' in issue for issue in issues):
         said=((getattr(turn,'experience',None) or {}).get('memory_check') or {}).get('what_they_have_actually_told_you_oldest_first')
         if isinstance(said,list) and said:
