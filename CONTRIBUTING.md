@@ -31,7 +31,7 @@ The `download_models.py` step fetches Qwen3.5-4B, SmolLM2-135M and llama.cpp. Yo
 
 None of the tests need the downloaded models — they check the emotion engine, the detectors and the monitor rules that catch Friday's failures (for example `tests/test_round2.py`, `tests/test_round3_v31.py`). Please add a test with any behavior change; it's how we keep old failures from coming back.
 
-The same suite runs automatically on every pull request (GitHub Actions, Windows, about 5 minutes), so you'll see a green check or a failing test on your PR. If it's your first contribution, GitHub may wait for a maintainer to approve the run.
+The same suite runs automatically on every pull request (GitHub Actions, Windows, about 2 minutes), so you'll see a green check or a failing test on your PR. If it's your first contribution, GitHub may wait for a maintainer to approve the run.
 
 ## Running the red-team
 
