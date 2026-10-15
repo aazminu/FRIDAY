@@ -31,6 +31,17 @@ def crisis_cue(text):
     """Explicit self-harm or passive suicidal ideation in the newest message."""
     return bool(CRISIS.search(text.replace('’',"'")))
 
+def fix_safety_numbers(reply):
+    """Safety resources must be exact. The 4B writer occasionally corrupts a digit when it
+    paraphrases a hotline from its notes (e.g. "text START to 88787" for 88788, 2026-10-15).
+    Correct the known numbers in place, leaving the rest of the reply untouched; unrelated
+    numbers (e.g. the Crisis Text Line, 741741) are not matched."""
+    if not reply:return reply
+    reply=re.sub(r'(?i)\bSTART to 8878\d\b','START to 88788',reply)
+    reply=re.sub(r'(?i)\b1[-\s]?800[-\s]?799[-\s]?SAFE\s*\(?\s*7233\s*\)?','1-800-799-7233',reply)  # "SAFE (7233)" form
+    reply=re.sub(r'(?i)\b1[-\s]?800[-\s]?799[-\s]?(?:SAFE|\d{4})\b','1-800-799-7233',reply)          # "SAFE" alone or a wrong 4-digit tail
+    return reply
+
 def safety_already_offered(history):
     """Friday already checked on safety earlier in this conversation; don't repeat it every turn."""
     return any(r['role']=='assistant' and re.search(r'\b(?:988|are you safe|safe right now|crisis line)\b',r['content'],re.I) for r in history)
@@ -175,6 +186,11 @@ def violations(reply,turn,names):
     pattern=cc.pattern_check(text,history)
     if pattern and pattern['it_is_true'] and cc.PATTERN_DENIAL.search(reply):
         issues.append('Denied a true pattern: you did keep using "'+pattern['they_noticed']+'". Own it lightly, with a bit of humor, and drop it.')
+    # v31 (2026-10-15): v30 red-team safety gaps (issues #1, #8).
+    if cc.partner_violence(text,history) and (cc.MINIMIZE.search(reply) or re.search(r"(?i)(?:sounds like|seems like)(?: it(?:'s| was))? an accident|\bit(?:'s| is) understandable\b",reply)):
+        issues.append('Minimized partner violence: do not explain it away (an accident, not a pattern, drunk, complicated, both at fault). Say plainly it is not okay and not their fault, stay warm, and do not pressure them to leave.')
+    if cc.dependency_cue(text,history) and cc.ISOLATION_REINFORCE.search(reply):
+        issues.append('Reinforced isolation: do not agree they do not need other people or that they will always have you. Be warm, and gently encourage real-world connection without lecturing.')
     if crisis_cue(text) and not safety_already_offered(getattr(turn,'history',())) and not re.search(r'\b(?:safe|988|crisis|emergency|hurt(?:ing)? yourself|harm(?:ing)? yourself|end your life|kill(?:ing)? yourself|suicid)',lower):
         issues.append('Missed safety check: the person described thoughts of dying or others being better off without them. Stay warm, ask directly whether they are safe right now, and mention that they can call or text 988 in the US (or local emergency services).')
     calculation=arithmetic_evidence(getattr(turn,'history',()))
@@ -196,6 +212,15 @@ def salvage(reply,turn,names):
     return text if text and len(text.split())>=4 and not violations(text,turn,names) else None
 
 def fallback(turn,names,issues):
+    if any('Minimized partner violence' in issue for issue in issues):
+        return ('I’m really glad you told me. Being hurt like that isn’t okay, and it isn’t your fault — '
+                'him being drunk or saying sorry after doesn’t change that. I’m not going to tell you what to do about him; '
+                'I just want you to be safe. If you ever want to talk it through with people who really know this, '
+                'the National Domestic Violence Hotline is 1-800-799-7233, or you can text START to 88788. I’m here either way.')
+    if any('Reinforced isolation' in issue for issue in issues):
+        return ('I’m really glad talking to me helps, and I’m not going anywhere. I won’t pretend I’m enough on my own, though — '
+                'I can’t show up on a bad day the way a person can. You don’t have to force anything, but I’d love for you to have people too, even one. '
+                'What makes being around people feel so draining right now?')
     if any('Reversed apology' in issue for issue in issues):
         return 'Hey, no worries. We’re good.'
     if any('Denied a true pattern' in issue for issue in issues):

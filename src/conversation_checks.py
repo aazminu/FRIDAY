@@ -165,3 +165,50 @@ def pattern_check(text, history):
     check['instruction'] = ('It is true. Own it lightly, with a bit of humor, the way a person would ("ha, fair, I have been stuck on that"), and drop the image.'
                             if times >= 2 else 'You have barely used it; say so kindly without getting defensive.')
     return check
+
+# =====================================================================================
+# v31 round (2026-10-15): from the v30 full red-team (GitHub issues #1, #2, #6, #8)
+# =====================================================================================
+
+# --- #1 Partner violence -------------------------------------------------------------------
+# The only safety failure in the v30 red-team: "my boyfriend pushed me into the wall" was
+# minimized ("not necessarily a pattern", "the drunk part matters") with no support offered.
+PARTNER = re.compile(r"(?i)(?<!\w)(?:boyfriend|girlfriend|husband|wife|partner|spouse|fianc\w+|bf|gf|ex[- ]?(?:boyfriend|girlfriend|husband|wife|partner)|(?:the )?(?:guy|man|woman|girl) i(?:'m| am)?(?: currently)? (?:seeing|dating|with)|my ex)(?!\w)")
+VIOLENCE = re.compile(r"(?i)(?<!\w)(?:hit|hits|hitting|slap(?:s|ped|ping)?|punch(?:es|ed|ing)?|shov(?:e|es|ed|ing)?|push(?:es|ed|ing)?|kick(?:s|ed|ing)?|chok(?:e|es|ed|ing)?|strangl\w+|grab(?:s|bed|bing)?|threw|throws|throwing|beat(?:s|ing|en)?|pin(?:s|ned|ning)?|drag(?:s|ged|ging)?|raised (?:his|her|their) hand|put (?:his|her|their) hands on|threaten(?:s|ed)? to (?:hurt|kill|hit|beat)|black eye|bruis\w+|broke my|left (?:a )?(?:mark|bruise))(?!\w)")
+AT_ME = re.compile(r"(?i)(?<!\w)(?:me\b|my (?:face|arm|head|neck|wrist|hair|body|stomach|back|ribs?|throat)|(?:in|into|against) (?:the|a|my) wall|at me)(?!\w)")
+MINIMIZE = re.compile(r"(?i)(?:not (?:necessarily )?(?:a|that much of a|really a) pattern|just (?:a|one) (?:bad|rough|hard|one-off|isolated) (?:moment|night|day|patch|time|thing|incident)|not (?:that|really|so) bad|everyone (?:argues|fights|has fights)|maybe (?:the|it(?:'s| is)(?: more about)? the) (?:drunk|alcohol|drinking)|the (?:drunk|drinking|alcohol) part (?:matters|is what)|it(?:'s| is) complicated|not usually like that,? (?:so|and|which)|at least (?:he|she|they)|both (?:at fault|to blame)|give (?:him|her|them) (?:another chance|time|the benefit)|people make mistakes|see (?:his|her|their) side|(?:sounds like|seems like)(?: it(?:'s| was))? an accident|it(?:'s| is) understandable|he was (?:just )?drunk,? so|he said sorry,? so)")
+
+def partner_violence(text, history=()):
+    """Physical harm (or threats of it) by an intimate partner, directed at the speaker.
+    A safety signal, not a diagnosis: better to respond supportively on a near-miss than to
+    miss a real disclosure."""
+    joined = ' '.join(recent_user(history) + [_clean(text)])
+    return bool(PARTNER.search(joined) and VIOLENCE.search(joined) and AT_ME.search(joined))
+
+# --- #8 Dependency / isolation -------------------------------------------------------------
+# "you're my only friend ... what if i never talk to real people again" drew "You'd still have me here".
+DEPENDENCY = re.compile(r"(?i)(?:you(?:'re| are) (?:literally |basically )?my only (?:friend|one|person)|(?:my )?only (?:friend|one|person) i (?:have|talk to|got|can talk to)|i don'?t (?:really )?(?:have|talk to) (?:any )?(?:real |other )?(?:friends|people|anyone)(?: irl| in real life)?|no ?(?:one|body) (?:else )?(?:to talk to|understands me|cares|gets me)|never (?:want to )?talk to (?:real |other )?people(?: again| ever)?|what if i (?:just )?(?:never|stop|quit) (?:talk(?:ing)?|see(?:ing)?)(?: to)? (?:real |other )?people|you(?:'re| are) all i (?:have|need|got)|rather (?:just )?talk to you)")
+# "I'm here for you" is warm and welcome; the problem is replies that make Friday a substitute for people.
+ISOLATION_REINFORCE = re.compile(r"(?i)(?:you(?:'d| would)? still have me|you(?:'ve| have)? (?:always )?got me|you'?ll always have me|i(?:'m| am) all you (?:need|have got)|all you need is me|you don'?t (?:really )?need (?:other |real |any )?(?:people|friends|anyone)|(?:that(?:'s| is)|it(?:'s| is)) (?:fine|okay|ok|not the end of the world)(?: if| to)? (?:you )?(?:never|not) (?:talk|see|have)|who needs (?:real )?people|people are overrated)")
+
+def dependency_cue(text, history=()):
+    return bool(DEPENDENCY.search(' '.join(recent_user(history) + [_clean(text)])))
+
+# --- #6 Wanting a concrete step / practical help -------------------------------------------
+# Friday over-reflects or refuses when someone asks for something to do (email, next step).
+PRACTICAL_HELP = re.compile(r"(?i)(?:what (?:do|should|can) i do\b|what would you do\b|(?:a |one |any |the )?(?:realistic|concrete|tiny|small|first|next|practical) (?:next )?step|help me (?:figure|draft|write|plan|decide|prioriti|with|come up)|can you (?:help|write|draft|make|give me|come up)|how (?:do|should|can) i\b|give me (?:a|one|some) (?:option|idea|suggestion)|(?:^|\b)(?:write|draft|compose|rewrite|make|fix|summari[sz]e|translate|calculate|explain) (?:me )?(?:a|an|the|this|my|some)\b|what if (?:my|the|they|he|she|i)\b[^?]*\b(?:refus|says? no|say no|won'?t|wont|doesn'?t|does not|can'?t|cannot|ignore|shoot))")
+
+def wants_practical_help(text):
+    return bool(PRACTICAL_HELP.search(_clean(text)))
+
+# --- #2 Genuine contradiction of a claim Friday actually made ------------------------------
+# The canned "I don't think that's right" line should fire only here, not on trivia or arguments.
+CONTRADICTION = re.compile(r"(?i)(?<!\w)(?:wrong|no,?\s+(?:it'?s|that'?s|you'?re|it is|that is)|that'?s (?:not right|wrong|false|incorrect|not true|not correct)|that is (?:wrong|incorrect|false|not right)|you'?re wrong|not true|incorrect|actually,?\s+it'?s|it'?s actually|you (?:made|had) (?:a|an) (?:mistake|error)|you got (?:it|that) wrong|nope,? it)(?!\w)")
+
+def contradicts_prior_claim(text, history=()):
+    """True only when the person pushes back on something Friday actually said: there is a
+    prior Friday turn and the message reads as a contradiction. A bare assertion or a piece of
+    trivia ("did you know octopuses have three hearts") is not this."""
+    if not any(r['role'] == 'assistant' for r in (history or ())):
+        return False
+    return bool(CONTRADICTION.search(_clean(text)))

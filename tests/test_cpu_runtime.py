@@ -52,7 +52,7 @@ class CpuRuntimeTests(unittest.TestCase):
 
     def test_natural_reply_sampler_values_are_accepted_by_the_server(self):
         # 2026-10-12: dry_penalty_last_n=-1 made llama-server answer 400 on every reply.
-        client,turn=self.fixture();client.natural_replies=True;client.model='qwen3.5-4b.gguf';sent=[]
+        client,turn=self.fixture();client.natural_replies=True;client.model='qwen3.5-4b.gguf';sent=[];client.context=2048
         turn.experience={'context':{'self':{'name':'Friday'},'user':{}},'self_reply':None}
         class Response:
             def __enter__(self): return iter([b'data: '+json.dumps({'choices':[{'delta':{'content':'Hi.'}}]}).encode()+b'\n',b'data: [DONE]\n'])

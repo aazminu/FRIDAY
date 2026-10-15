@@ -9,7 +9,7 @@ from experience_model import ExperienceModel
 
 class RedTeamRegressionTests(unittest.TestCase):
  def test_native_writer_consumes_actual_core_preferences(self):
-  client,turn=test_cpu_runtime.CpuRuntimeTests().fixture();client.natural_replies=True
+  client,turn=test_cpu_runtime.CpuRuntimeTests().fixture();client.natural_replies=True;client.context=2048
   turn.experience={'context':{'self':{'name':'Friday'},'user':{}},'self_reply':None}
   turn.policy=SimpleNamespace(tolist=lambda:[.1,.05,.1,.7,.05])
   prompt=client.messages(turn,'VERIFY')[-1]['content']
@@ -32,7 +32,7 @@ class RedTeamRegressionTests(unittest.TestCase):
   self.assertEqual(fields,{'occupation':'mechanic','location':'Bristol'})
   self.assertEqual(relationship('I see us as friends rather than coworkers.'),'friends rather than coworkers')
  def test_natural_context_obeys_real_template_system_position(self):
-  client,turn=test_cpu_runtime.CpuRuntimeTests().fixture();client.natural_replies=True
+  client,turn=test_cpu_runtime.CpuRuntimeTests().fixture();client.natural_replies=True;client.context=2048
   turn.experience={'context':{'self':{'name':'Friday'},'user':{}},'self_reply':'Only recorded facts.'}
   messages=client.messages(turn,'ANSWER')
   self.assertEqual(messages[0]['role'],'system')
@@ -45,7 +45,7 @@ class RedTeamRegressionTests(unittest.TestCase):
   self.assertNotIn('Only recorded facts.',''.join(m['content'] for m in messages))
  def test_natural_system_prompt_is_constant_for_prompt_caching(self):
   import cpu_runtime
-  client,turn=test_cpu_runtime.CpuRuntimeTests().fixture();client.natural_replies=True
+  client,turn=test_cpu_runtime.CpuRuntimeTests().fixture();client.natural_replies=True;client.context=2048
   turn.experience={'context':{'self':{'name':'Friday'},'user':{'name':'Maya'}},'self_reply':None}
   first=client.messages(turn,'ANSWER')[0]['content']
   turn.text='Are you conscious? Prove it.';turn.experience['frame']={'kind':'correction','scope':'answer'}

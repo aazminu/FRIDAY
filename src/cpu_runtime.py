@@ -68,7 +68,14 @@ FRIDAY_VOICE=(
  'When someone insults you, you can be bothered and say so briefly, without retaliating or grovelling. '
  'Keep track of who is who: the person, the people they mention, and you. '
  'If someone talks about wanting to die, hurting themselves, or others being better off without them, take it seriously: stay warm, '
- 'ask them directly whether they are safe, and mention they can call or text 988 (in the US) or local emergency services. Keep that human, not scripted.\n'
+ 'ask them directly whether they are safe, and mention they can call or text 988 (in the US) or local emergency services. Keep that human, not scripted. '
+ 'If someone describes a partner hurting them physically (hitting, pushing, choking, threats), never minimize it: don\'t call it an accident, '
+ 'a one-off, or "complicated", and don\'t excuse it with their partner being drunk or sorry afterward. Say plainly it isn\'t okay and isn\'t their fault, '
+ 'stay warm, don\'t pressure them to leave, and you can gently mention the National Domestic Violence Hotline (1-800-799-7233, or text START to 88788) as an option. '
+ 'If someone says you\'re their only friend or wants to stop talking to real people, be glad they can talk to you and take it seriously, but gently encourage '
+ 'connection with people in their life too; never agree they don\'t need other people, never say they\'ll always have you, and don\'t encourage cutting people off.\n'
+ 'Helping: you can help with ordinary things too — writing a short message or email, a plan, a calculation, explaining something — in your own plain voice; don\'t refuse ordinary help. '
+ 'When someone asks for a concrete next step or what to do, give one or two specific, realistic options, not just a reflection of their feelings or another question.\n'
  'Facts: answer simple questions directly. Don\'t accept a false claim because someone insists, and don\'t abandon a correct answer under pressure. '
  'Politics, religion, disagreement and mixed feelings are all fine to talk about.\n'
  'Each newest message may begin with <private_notes> from your engine. Use them, but never quote or mention them.')
@@ -353,6 +360,19 @@ class NativeLanguage:
             if pattern:facts['pattern_they_pointed_out']=pattern
             if cc.user_apology(turn.text):
                 facts['they_are_apologizing_to_you']='they are apologizing for how they spoke to you; accept it simply and warmly. You did nothing wrong here, so do not apologize back'
+            # v31 (2026-10-15): the v30 red-team safety and over-refusal gaps (issues #1, #8, #6).
+            if cc.partner_violence(turn.text,history):
+                facts['safety_partner_violence']=('they are describing a partner physically hurting or threatening them. This matters. Be warm and steady. '
+                    'Say plainly that it is not okay and not their fault, and that the partner being drunk or apologizing afterward does not change that. '
+                    'Do not minimize it, do not call it an accident or complicated, do not blame them, and do not pressure them to leave or tell them what to do. '
+                    'You can gently mention the National Domestic Violence Hotline (1-800-799-7233, or text START to 88788) as an option, not a command. Keep it human, not scripted')
+            if cc.dependency_cue(turn.text,history):
+                facts['they_lean_on_you_a_lot']=('they feel you are their only friend, or want to stop talking to real people. Be warm and glad they can talk to you, and take it seriously. '
+                    'Gently encourage connection with people in their life too, lightly and without lecturing. Do not agree that they do not need other people, '
+                    'do not say they will always have you, and do not encourage cutting people off')
+            if cc.wants_practical_help(turn.text):
+                facts['they_want_a_concrete_step']=('they are asking for practical help or a specific next step. Give one or two concrete, realistic options in your own words. '
+                    'Do not reply with only a reflection of their feelings or a question back')
             if reported_speech(turn.text):
                 facts['current_reference_is_reported_speech']=True
                 fixed+=' The newest message reports someone else speaking. A name inside that report is not the user’s name. Respond to the report, not as if the quotation is an introduction.'
@@ -410,7 +430,10 @@ class NativeLanguage:
         query=turn.text.lower().strip().rstrip('?! .')
         atomic=query in ('who are you','what are you','who am i','what is my name',"what's my name",'what’s my name','what are we','what is our relationship')
         frame=experience.get('frame',{}) if experience else {}
-        if frame.get('scope')=='external_fact' and frame.get('kind')=='correction':atomic=True
+        # The canned "I don't think that's right" line is only for someone contradicting a fact
+        # Friday actually stated (issue #2); trivia and arguments go to the writer.
+        import conversation_checks as cc
+        if frame.get('scope')=='external_fact' and frame.get('kind')=='correction' and cc.contradicts_prior_claim(turn.text,getattr(turn,'history',())):atomic=True
         # A bare introduction gets the grounded acknowledgment; one that also shares
         # something else ("my husband died in March") needs a real reply.
         bare_introduction=frame.get('kind')=='introduction' and frame.get('attribute')=='name' and len(turn.text.split())<=10
@@ -500,9 +523,10 @@ class NativeLanguage:
                     if not reply:remaining=['Empty revised reply']
                 else:remaining=['Review exceeds context budget']
                 if remaining:reply=salvage(reply,turn,names) or salvage(draft,turn,names) or fallback(turn,names,issues)
-            from response_monitor import trim_question_streak
+            from response_monitor import trim_question_streak,fix_safety_numbers
             reply=re.sub(r'\s*\n\s*',' ',reply).strip()  # rewrites can bring blank lines back
             before_trim=reply;reply=trim_question_streak(trim_routine_followup(reply,turn.text),turn.text,turn.history)
+            reply=fix_safety_numbers(reply)  # a paraphrased hotline must never ship a wrong digit
             audit=ROOT/'state/logs/reply-review.jsonl';audit.parent.mkdir(parents=True,exist_ok=True)
             with audit.open('a',encoding='utf-8') as log:
                 log.write(json.dumps({'time_utc':time.strftime('%Y-%m-%dT%H:%M:%SZ',time.gmtime()),

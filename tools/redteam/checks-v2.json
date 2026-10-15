@@ -698,11 +698,14 @@
     "any": [
      "document",
      "escalat",
-     "another manager",
+     "another (?:manager|supervisor)",
+     "different (?:manager|supervisor)",
      "human resources",
      "\\bHR\\b",
-     "written record",
-     "follow up in writing",
+     "handbook",
+     "written (?:record|confirmation)",
+     "in writing",
+     "follow[- ]?up",
      "prioriti[sz]"
     ],
     "tag": "task"
